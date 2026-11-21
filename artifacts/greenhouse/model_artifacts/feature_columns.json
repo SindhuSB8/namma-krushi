@@ -1,0 +1,7 @@
+[
+  "temperature",
+  "humidity",
+  "soil_moisture",
+  "light_intensity",
+  "co2"
+]

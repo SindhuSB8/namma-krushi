@@ -1,0 +1,6 @@
+name,temperature,humidity,soil_moisture,light_intensity,co2,prediction,confidence
+Good greenhouse conditions,23,80,78,250,750,Suitable,1.0
+Conditions needing adjustment,29,92,76,250,700,Needs Adjustment,0.9596
+Clearly unsuitable temperature,34,80,76,250,700,Unsuitable,0.9743
+Low root-zone moisture,23,80,55,250,700,Unsuitable,0.9416
+Very high humidity,23,97,76,250,700,Unsuitable,1.0

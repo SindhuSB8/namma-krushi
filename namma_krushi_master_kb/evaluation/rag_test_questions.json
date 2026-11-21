@@ -1,0 +1,441 @@
+{
+  "count": 109,
+  "questions": [
+    {
+      "id": "Q001",
+      "question": "What temperature is suitable for tomato fruit set in a polyhouse?"
+    },
+    {
+      "id": "Q002",
+      "question": "Why are my tomato flowers falling?"
+    },
+    {
+      "id": "Q003",
+      "question": "My greenhouse humidity is high. What should I check?"
+    },
+    {
+      "id": "Q004",
+      "question": "Why are my tomato leaves yellow?"
+    },
+    {
+      "id": "Q005",
+      "question": "How do I know if wilting is from water stress or Fusarium wilt?"
+    },
+    {
+      "id": "Q006",
+      "question": "What does bacterial wilt look like?"
+    },
+    {
+      "id": "Q007",
+      "question": "How can I distinguish early blight from Septoria leaf spot?"
+    },
+    {
+      "id": "Q008",
+      "question": "What are the signs of late blight?"
+    },
+    {
+      "id": "Q009",
+      "question": "What does leaf mold look like in a greenhouse?"
+    },
+    {
+      "id": "Q010",
+      "question": "How does tomato yellow leaf curl spread?"
+    },
+    {
+      "id": "Q011",
+      "question": "What is tomato mosaic disease?"
+    },
+    {
+      "id": "Q012",
+      "question": "What does powdery mildew look like?"
+    },
+    {
+      "id": "Q013",
+      "question": "Why are there fine webs under tomato leaves?"
+    },
+    {
+      "id": "Q014",
+      "question": "What are spider mite symptoms?"
+    },
+    {
+      "id": "Q015",
+      "question": "What do serpentine trails in tomato leaves mean?"
+    },
+    {
+      "id": "Q016",
+      "question": "How do thrips damage tomato plants?"
+    },
+    {
+      "id": "Q017",
+      "question": "Why are there holes in my tomato fruits?"
+    },
+    {
+      "id": "Q018",
+      "question": "What is integrated pest management?"
+    },
+    {
+      "id": "Q019",
+      "question": "How should I raise tomato seedlings in pro-trays?"
+    },
+    {
+      "id": "Q020",
+      "question": "Why are seedlings collapsing at the soil line?"
+    },
+    {
+      "id": "Q021",
+      "question": "What soil pH is generally suitable for tomato?"
+    },
+    {
+      "id": "Q022",
+      "question": "Why is drainage important in a polyhouse?"
+    },
+    {
+      "id": "Q023",
+      "question": "Should tomato roots stay wet all the time?"
+    },
+    {
+      "id": "Q024",
+      "question": "What is fertigation?"
+    },
+    {
+      "id": "Q025",
+      "question": "Can I solve all yellow leaves by adding nitrogen?"
+    },
+    {
+      "id": "Q026",
+      "question": "Why is uniform irrigation important for fruit quality?"
+    },
+    {
+      "id": "Q027",
+      "question": "What causes blossom end rot?"
+    },
+    {
+      "id": "Q028",
+      "question": "What causes tomato fruit cracking?"
+    },
+    {
+      "id": "Q029",
+      "question": "How can heavy pruning cause sunscald?"
+    },
+    {
+      "id": "Q030",
+      "question": "Why do greenhouse tomatoes need training?"
+    },
+    {
+      "id": "Q031",
+      "question": "What is a two-stem training system?"
+    },
+    {
+      "id": "Q032",
+      "question": "Why should old lower leaves be removed gradually?"
+    },
+    {
+      "id": "Q033",
+      "question": "How can I improve pollination in a greenhouse?"
+    },
+    {
+      "id": "Q034",
+      "question": "What is the difference between greenhouse and polyhouse?"
+    },
+    {
+      "id": "Q035",
+      "question": "Is CO2 a greenhouse gas or a greenhouse parameter in this app?"
+    },
+    {
+      "id": "Q036",
+      "question": "What should I do if the greenhouse ML says Needs Adjustment because humidity is high?"
+    },
+    {
+      "id": "Q037",
+      "question": "What should the chatbot say if the disease CNN confidence is low?"
+    },
+    {
+      "id": "Q038",
+      "question": "Can the chatbot explain why my greenhouse was classified as unsuitable?"
+    },
+    {
+      "id": "Q039",
+      "question": "Can I get subsidy for a polyhouse under MIDH?"
+    },
+    {
+      "id": "Q040",
+      "question": "What is PM-KISAN?"
+    },
+    {
+      "id": "Q041",
+      "question": "Who can use Kisan Credit Card?"
+    },
+    {
+      "id": "Q042",
+      "question": "How can I apply for crop insurance under PMFBY?"
+    },
+    {
+      "id": "Q043",
+      "question": "Is tomato automatically covered by PMFBY?"
+    },
+    {
+      "id": "Q044",
+      "question": "What is Agriculture Infrastructure Fund used for?"
+    },
+    {
+      "id": "Q045",
+      "question": "Where should a Karnataka farmer check horticulture schemes?"
+    },
+    {
+      "id": "Q046",
+      "question": "Do scheme subsidy percentages stay the same every year?"
+    },
+    {
+      "id": "Q047",
+      "question": "Why should I avoid watering already saturated tomato beds?"
+    },
+    {
+      "id": "Q048",
+      "question": "Can high humidity increase tomato disease risk?"
+    },
+    {
+      "id": "Q049",
+      "question": "What does a healthy tomato leaf look like?"
+    },
+    {
+      "id": "Q050",
+      "question": "Can a leaf image prove the whole plant is healthy?"
+    },
+    {
+      "id": "Q051",
+      "question": "Why can leaf curl be confused with heat stress?"
+    },
+    {
+      "id": "Q052",
+      "question": "How do I manage whiteflies without only relying on spraying?"
+    },
+    {
+      "id": "Q053",
+      "question": "What role do sticky traps play in a greenhouse?"
+    },
+    {
+      "id": "Q054",
+      "question": "Why should I inspect the underside of leaves?"
+    },
+    {
+      "id": "Q055",
+      "question": "What does vascular browning mean in a wilted tomato plant?"
+    },
+    {
+      "id": "Q056",
+      "question": "How does irrigation failure on one lateral show up in the crop?"
+    },
+    {
+      "id": "Q057",
+      "question": "What should I check if a whole greenhouse changes after fertigation?"
+    },
+    {
+      "id": "Q058",
+      "question": "Why should scheme answers include an official source?"
+    },
+    {
+      "id": "Q059",
+      "question": "Why should the Kannada chatbot translate before searching English FAISS?"
+    },
+    {
+      "id": "Q060",
+      "question": "Can one FAISS index be used for both schemes and agriculture?"
+    },
+    {
+      "id": "Q061",
+      "question": "Farmer sees older leaves and concentric rings. Could this be early blight?"
+    },
+    {
+      "id": "Q062",
+      "question": "What should the farmer check before deciding it is early blight?"
+    },
+    {
+      "id": "Q063",
+      "question": "What first-line management principles apply to early blight?"
+    },
+    {
+      "id": "Q064",
+      "question": "Farmer sees rapid dark lesions after humid weather. Could this be late blight?"
+    },
+    {
+      "id": "Q065",
+      "question": "What should the farmer check before deciding it is late blight?"
+    },
+    {
+      "id": "Q066",
+      "question": "What first-line management principles apply to late blight?"
+    },
+    {
+      "id": "Q067",
+      "question": "Farmer sees small water-soaked spots. Could this be bacterial spot?"
+    },
+    {
+      "id": "Q068",
+      "question": "What should the farmer check before deciding it is bacterial spot?"
+    },
+    {
+      "id": "Q069",
+      "question": "What first-line management principles apply to bacterial spot?"
+    },
+    {
+      "id": "Q070",
+      "question": "Farmer sees yellow patches with growth underneath. Could this be leaf mold?"
+    },
+    {
+      "id": "Q071",
+      "question": "What should the farmer check before deciding it is leaf mold?"
+    },
+    {
+      "id": "Q072",
+      "question": "What first-line management principles apply to leaf mold?"
+    },
+    {
+      "id": "Q073",
+      "question": "Farmer sees many small grey-centred spots. Could this be septoria?"
+    },
+    {
+      "id": "Q074",
+      "question": "What should the farmer check before deciding it is septoria?"
+    },
+    {
+      "id": "Q075",
+      "question": "What first-line management principles apply to septoria?"
+    },
+    {
+      "id": "Q076",
+      "question": "Farmer sees white powdery growth. Could this be powdery mildew?"
+    },
+    {
+      "id": "Q077",
+      "question": "What should the farmer check before deciding it is powdery mildew?"
+    },
+    {
+      "id": "Q078",
+      "question": "What first-line management principles apply to powdery mildew?"
+    },
+    {
+      "id": "Q079",
+      "question": "Farmer sees bronzing and webbing. Could this be spider mites?"
+    },
+    {
+      "id": "Q080",
+      "question": "What should the farmer check before deciding it is spider mites?"
+    },
+    {
+      "id": "Q081",
+      "question": "What first-line management principles apply to spider mites?"
+    },
+    {
+      "id": "Q082",
+      "question": "Farmer sees leaf curl virus risk. Could this be whiteflies?"
+    },
+    {
+      "id": "Q083",
+      "question": "What should the farmer check before deciding it is whiteflies?"
+    },
+    {
+      "id": "Q084",
+      "question": "What first-line management principles apply to whiteflies?"
+    },
+    {
+      "id": "Q085",
+      "question": "Farmer sees flower damage and virus risk. Could this be thrips?"
+    },
+    {
+      "id": "Q086",
+      "question": "What should the farmer check before deciding it is thrips?"
+    },
+    {
+      "id": "Q087",
+      "question": "What first-line management principles apply to thrips?"
+    },
+    {
+      "id": "Q088",
+      "question": "Farmer sees collapsed seedlings. Could this be damping off?"
+    },
+    {
+      "id": "Q089",
+      "question": "What should the farmer check before deciding it is damping off?"
+    },
+    {
+      "id": "Q090",
+      "question": "What first-line management principles apply to damping off?"
+    },
+    {
+      "id": "Q091",
+      "question": "Farmer sees lower-leaf yellowing and vascular browning. Could this be Fusarium wilt?"
+    },
+    {
+      "id": "Q092",
+      "question": "What should the farmer check before deciding it is Fusarium wilt?"
+    },
+    {
+      "id": "Q093",
+      "question": "What first-line management principles apply to Fusarium wilt?"
+    },
+    {
+      "id": "Q094",
+      "question": "Farmer sees rapid permanent wilt. Could this be bacterial wilt?"
+    },
+    {
+      "id": "Q095",
+      "question": "What should the farmer check before deciding it is bacterial wilt?"
+    },
+    {
+      "id": "Q096",
+      "question": "What first-line management principles apply to bacterial wilt?"
+    },
+    {
+      "id": "Q097",
+      "question": "Farmer sees light and dark green mottling. Could this be mosaic virus?"
+    },
+    {
+      "id": "Q098",
+      "question": "What should the farmer check before deciding it is mosaic virus?"
+    },
+    {
+      "id": "Q099",
+      "question": "What first-line management principles apply to mosaic virus?"
+    },
+    {
+      "id": "Q100",
+      "question": "How should the app explain a high negative XAI contribution from temperature?"
+    },
+    {
+      "id": "Q101",
+      "question": "What other greenhouse factors should be considered together with temperature?"
+    },
+    {
+      "id": "Q102",
+      "question": "How should the app explain a high negative XAI contribution from humidity?"
+    },
+    {
+      "id": "Q103",
+      "question": "What other greenhouse factors should be considered together with humidity?"
+    },
+    {
+      "id": "Q104",
+      "question": "How should the app explain a high negative XAI contribution from soil moisture?"
+    },
+    {
+      "id": "Q105",
+      "question": "What other greenhouse factors should be considered together with soil moisture?"
+    },
+    {
+      "id": "Q106",
+      "question": "How should the app explain a high negative XAI contribution from light intensity?"
+    },
+    {
+      "id": "Q107",
+      "question": "What other greenhouse factors should be considered together with light intensity?"
+    },
+    {
+      "id": "Q108",
+      "question": "How should the app explain a high negative XAI contribution from CO2?"
+    },
+    {
+      "id": "Q109",
+      "question": "What other greenhouse factors should be considered together with CO2?"
+    }
+  ]
+}

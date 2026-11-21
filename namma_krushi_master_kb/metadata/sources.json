@@ -1,0 +1,611 @@
+{
+  "verified_on": "2026-09-04",
+  "sources": [
+    {
+      "id": "S01",
+      "title": "ICAR Indian Horticulture May–June 2026: protected/polyhouse tomato material",
+      "org": "ICAR / IARI",
+      "url": "https://www.icar.gov.in/sites/default/files/2026-05/Indian%20Horticulture%2C%20May-June%202026%20Low%20new.pdf",
+      "topics": [
+        "polyhouse tomato",
+        "temperature",
+        "soil",
+        "training",
+        "pollination",
+        "harvest",
+        "IPM"
+      ]
+    },
+    {
+      "id": "S02",
+      "title": "ICAR Kharif Agro-Advisories for Farmers 2025",
+      "org": "ICAR",
+      "url": "https://icar.gov.in/sites/default/files/Circulars/ICAR-En-Kharif-Agro-Advisories-for-Farmers-2025.pdf",
+      "topics": [
+        "greenhouse tomato",
+        "spacing",
+        "training",
+        "irrigation",
+        "fertigation"
+      ]
+    },
+    {
+      "id": "S03",
+      "title": "Off-season cultivation of tomato under protected environment",
+      "org": "ICAR Research Complex for NEH Region",
+      "url": "https://icar.gov.in/en/season-cultivation-tomato-under-protected-environment-promising-option-livelihood-improvement-mizo",
+      "topics": [
+        "protected cultivation",
+        "varieties",
+        "spacing",
+        "nutrient management",
+        "economics"
+      ]
+    },
+    {
+      "id": "S04",
+      "title": "Two-stem training in polyhouse tomato",
+      "org": "ICAR-IIVR",
+      "url": "https://www.icar.gov.in/en/boosting-tomato-yield-through-two-stem-training-polyhouse-success-story-sonbhadra-0",
+      "topics": [
+        "training",
+        "pruning",
+        "drip irrigation",
+        "fruit set"
+      ]
+    },
+    {
+      "id": "S05",
+      "title": "Integrated Pest Management approaches against major insect pests and diseases of Tomato",
+      "org": "ICAR-NRIIPM",
+      "url": "https://nriipm.res.in/NCIPMPDFs/FOLDERS/tomato_1_.pdf",
+      "topics": [
+        "IPM",
+        "pests",
+        "diseases",
+        "monitoring",
+        "trap crops"
+      ]
+    },
+    {
+      "id": "S06",
+      "title": "TNAU Tomato Agritech index",
+      "org": "Tamil Nadu Agricultural University",
+      "url": "https://agritech.tnau.ac.in/horticulture/horti_vegetables_tomato_index.html",
+      "topics": [
+        "tomato cultivation",
+        "nursery",
+        "irrigation",
+        "fertigation",
+        "diseases",
+        "pests"
+      ]
+    },
+    {
+      "id": "S07",
+      "title": "TNAU Tomato soil and field preparation",
+      "org": "Tamil Nadu Agricultural University",
+      "url": "https://agritech.tnau.ac.in/horticulture/horti_vegetables_tomato_Soil.html",
+      "topics": [
+        "soil",
+        "pH",
+        "field preparation",
+        "transplanting"
+      ]
+    },
+    {
+      "id": "S08",
+      "title": "TNAU Tomato seed and nursery production",
+      "org": "Tamil Nadu Agricultural University",
+      "url": "https://www.agritech.tnau.ac.in/horticulture/horti_vegetables_tomato_seed.html",
+      "topics": [
+        "nursery",
+        "protrays",
+        "seedlings"
+      ]
+    },
+    {
+      "id": "S09",
+      "title": "TNAU Tomato cultural practices",
+      "org": "Tamil Nadu Agricultural University",
+      "url": "https://www.agritech.tnau.ac.in/horticulture/horti_vegetables_tomato_cultural%20practices.html",
+      "topics": [
+        "spacing",
+        "mulching",
+        "training",
+        "micronutrients"
+      ]
+    },
+    {
+      "id": "S10",
+      "title": "TNAU Tomato fertigation",
+      "org": "Tamil Nadu Agricultural University",
+      "url": "https://www.agritech.tnau.ac.in/horticulture/horti_vegetables_tomato_fertigation.html",
+      "topics": [
+        "drip",
+        "fertigation",
+        "nutrition"
+      ]
+    },
+    {
+      "id": "S11",
+      "title": "TNAU Protected cultivation of tomato",
+      "org": "Tamil Nadu Agricultural University",
+      "url": "https://agritech.tnau.ac.in/horticulture/horti_vegetables_tomato_protected.html",
+      "topics": [
+        "shade net",
+        "polyhouse",
+        "protected cultivation"
+      ]
+    },
+    {
+      "id": "S12",
+      "title": "TNAU Tomato major and minor diseases index",
+      "org": "Tamil Nadu Agricultural University",
+      "url": "https://www.agritech.tnau.ac.in/crop_protection/crop_prot_crop%20diseases_veg_tomato.html",
+      "topics": [
+        "disease taxonomy"
+      ]
+    },
+    {
+      "id": "S13",
+      "title": "TNAU Damping off of tomato",
+      "org": "Tamil Nadu Agricultural University",
+      "url": "https://www.agritech.tnau.ac.in/crop_protection/tomato_diseases_1.html",
+      "topics": [
+        "damping off"
+      ]
+    },
+    {
+      "id": "S14",
+      "title": "TNAU Fusarium wilt of tomato",
+      "org": "Tamil Nadu Agricultural University",
+      "url": "https://www.agritech.tnau.ac.in/crop_protection/tomato_diseases_3.html",
+      "topics": [
+        "fusarium wilt"
+      ]
+    },
+    {
+      "id": "S15",
+      "title": "TNAU Septoria leaf spot of tomato",
+      "org": "Tamil Nadu Agricultural University",
+      "url": "https://agritech.tnau.ac.in/crop_protection/tomato_diseases_4.html",
+      "topics": [
+        "septoria"
+      ]
+    },
+    {
+      "id": "S16",
+      "title": "TNAU Bacterial wilt of tomato",
+      "org": "Tamil Nadu Agricultural University",
+      "url": "https://agritech.tnau.ac.in/crop_protection/tomato_diseases_5.html",
+      "topics": [
+        "bacterial wilt"
+      ]
+    },
+    {
+      "id": "S17",
+      "title": "TNAU Tomato leaf curl",
+      "org": "Tamil Nadu Agricultural University",
+      "url": "https://www.agritech.tnau.ac.in/crop_protection/tomato_diseases_6.html",
+      "topics": [
+        "leaf curl",
+        "whitefly vector"
+      ]
+    },
+    {
+      "id": "S18",
+      "title": "TNAU Powdery mildew of tomato",
+      "org": "Tamil Nadu Agricultural University",
+      "url": "https://agritech.tnau.ac.in/crop_protection/tomato_diseases_10.html",
+      "topics": [
+        "powdery mildew"
+      ]
+    },
+    {
+      "id": "S19",
+      "title": "TNAU Bacterial leaf spot of tomato",
+      "org": "Tamil Nadu Agricultural University",
+      "url": "https://agritech.tnau.ac.in/crop_protection/tomato_diseases_11.html",
+      "topics": [
+        "bacterial spot"
+      ]
+    },
+    {
+      "id": "S20",
+      "title": "TNAU Mosaic disease of tomato",
+      "org": "Tamil Nadu Agricultural University",
+      "url": "https://agritech.tnau.ac.in/crop_protection/tomato_diseases_12.html",
+      "topics": [
+        "mosaic virus"
+      ]
+    },
+    {
+      "id": "S21",
+      "title": "TNAU Red spider mite on tomato",
+      "org": "Tamil Nadu Agricultural University",
+      "url": "https://agritech.tnau.ac.in/crop_protection/tomato/tomato_7.html",
+      "topics": [
+        "spider mites"
+      ]
+    },
+    {
+      "id": "S22",
+      "title": "TNAU Thrips on tomato",
+      "org": "Tamil Nadu Agricultural University",
+      "url": "https://www.agritech.tnau.ac.in/crop_protection/tomato/tomato_5.html",
+      "topics": [
+        "thrips"
+      ]
+    },
+    {
+      "id": "S23",
+      "title": "TNAU Serpentine leaf miner on tomato",
+      "org": "Tamil Nadu Agricultural University",
+      "url": "https://agritech.tnau.ac.in/crop_protection/tomato/tomato_2.html",
+      "topics": [
+        "leaf miner"
+      ]
+    },
+    {
+      "id": "S24",
+      "title": "TNAU Tomato calcium deficiency and blossom end rot",
+      "org": "Tamil Nadu Agricultural University",
+      "url": "https://www.agritech.tnau.ac.in/horticulture/plant_nutri/tomato_cal.html",
+      "topics": [
+        "calcium deficiency",
+        "blossom end rot"
+      ]
+    },
+    {
+      "id": "S25",
+      "title": "Mission for Integrated Development of Horticulture",
+      "org": "National Portal of India / Ministry of Agriculture and Farmers Welfare",
+      "url": "https://www.india.gov.in/category/agriculture-rural-environment/subcategory/agriculture-ecosystem/details/mission-for-integrated-development-of-horticulture-midh",
+      "topics": [
+        "MIDH",
+        "horticulture schemes"
+      ]
+    },
+    {
+      "id": "S26",
+      "title": "MIDH Operational Guidelines 2025",
+      "org": "National Horticulture Board",
+      "url": "https://nhb.gov.in/writereaddata/082825102800MIDH%20Guideline%202025.pdf",
+      "topics": [
+        "protected cultivation",
+        "cost norms",
+        "assistance"
+      ]
+    },
+    {
+      "id": "S27",
+      "title": "PM-KISAN official portal",
+      "org": "Department of Agriculture and Farmers Welfare",
+      "url": "https://www.pmkisan.gov.in/",
+      "topics": [
+        "PM-KISAN",
+        "income support"
+      ]
+    },
+    {
+      "id": "S28",
+      "title": "Kisan Credit Card on myScheme",
+      "org": "Government of India / myScheme",
+      "url": "https://www.myscheme.gov.in/schemes/kcc",
+      "topics": [
+        "KCC",
+        "farm credit"
+      ]
+    },
+    {
+      "id": "S29",
+      "title": "Pradhan Mantri Fasal Bima Yojana official portal",
+      "org": "Ministry of Agriculture and Farmers Welfare",
+      "url": "https://pmfby.gov.in/",
+      "topics": [
+        "crop insurance",
+        "PMFBY"
+      ]
+    },
+    {
+      "id": "S30",
+      "title": "Agriculture Infrastructure Fund revised guidelines",
+      "org": "Department of Agriculture and Farmers Welfare",
+      "url": "https://agriinfra.dac.gov.in/Documents/Circular/91EE46A50D3941908F192725717E431B.pdf",
+      "topics": [
+        "AIF",
+        "post-harvest",
+        "farm infrastructure"
+      ]
+    },
+    {
+      "id": "S31",
+      "title": "myScheme national scheme discovery platform",
+      "org": "Digital India / NeGD",
+      "url": "https://www.myscheme.gov.in/",
+      "topics": [
+        "scheme discovery",
+        "eligibility"
+      ]
+    },
+    {
+      "id": "S32",
+      "title": "Karnataka Raita Mitra",
+      "org": "Government of Karnataka",
+      "url": "https://raitamitra.karnataka.gov.in/en",
+      "topics": [
+        "Karnataka agriculture services",
+        "schemes"
+      ]
+    },
+    {
+      "id": "S33",
+      "title": "Karnataka Department of Horticulture – Central Sector Schemes",
+      "org": "Government of Karnataka",
+      "url": "https://horticulturedir.karnataka.gov.in/36/central-sector-schemes/en",
+      "topics": [
+        "Karnataka horticulture",
+        "schemes"
+      ]
+    },
+    {
+      "id": "S34",
+      "title": "Vikaspedia Tomato diseases and symptoms",
+      "org": "Vikaspedia / Government-supported knowledge portal",
+      "url": "https://agriculture.vikaspedia.in/viewcontent/agriculture/crop-production/integrated-pest-managment/ipm-for-vegetables/ipm-strategies-for-tomato/tomato-diseases-and-symptoms?lgn=en",
+      "topics": [
+        "tomato diseases",
+        "symptoms",
+        "IPM"
+      ]
+    },
+    {
+      "id": "S35",
+      "title": "PM-KUSUM scheme page",
+      "org": "Ministry of New and Renewable Energy (MNRE)",
+      "url": "https://mnre.gov.in/?p=22280",
+      "topics": [
+        "PM-KUSUM",
+        "solar pumps",
+        "irrigation subsidy"
+      ]
+    },
+    {
+      "id": "S36",
+      "title": "Per Drop More Crop - PMKSY",
+      "org": "Ministry of Agriculture & Farmers Welfare",
+      "url": "https://pmksy.gov.in/",
+      "topics": [
+        "PDMC",
+        "micro irrigation",
+        "subsidy"
+      ]
+    },
+    {
+      "id": "S37",
+      "title": "Modified Interest Subvention Scheme",
+      "org": "Department of Agriculture & Farmers Welfare",
+      "url": "https://agriwelfare.gov.in/",
+      "topics": [
+        "MISS",
+        "KCC",
+        "interest subvention"
+      ]
+    },
+    {
+      "id": "S38",
+      "title": "PM Kisan Maandhan Yojana",
+      "org": "Ministry of Agriculture & Farmers Welfare",
+      "url": "https://pmkmy.gov.in/",
+      "topics": [
+        "PM-KMY",
+        "pension"
+      ]
+    },
+    {
+      "id": "S39",
+      "title": "Soil Health Card portal",
+      "org": "Department of Agriculture & Farmers Welfare",
+      "url": "https://soilhealth.dac.gov.in/",
+      "topics": [
+        "soil health card",
+        "soil testing"
+      ]
+    },
+    {
+      "id": "S40",
+      "title": "e-NAM portal",
+      "org": "Small Farmers Agribusiness Consortium / Government of India",
+      "url": "https://enam.gov.in/",
+      "topics": [
+        "e-NAM",
+        "mandi",
+        "online trading"
+      ]
+    },
+    {
+      "id": "S41",
+      "title": "Agricultural mechanization portal",
+      "org": "Department of Agriculture & Farmers Welfare",
+      "url": "https://agrimachinery.nic.in/",
+      "topics": [
+        "SMAM",
+        "mechanization",
+        "subsidy"
+      ]
+    },
+    {
+      "id": "S42",
+      "title": "PM FME scheme portal",
+      "org": "Ministry of Food Processing Industries",
+      "url": "https://pmfme.mofpi.gov.in/",
+      "topics": [
+        "PMFME",
+        "food processing",
+        "subsidy"
+      ]
+    },
+    {
+      "id": "S43",
+      "title": "FPO scheme information",
+      "org": "Small Farmers Agribusiness Consortium (SFAC)",
+      "url": "https://sfacindia.com/",
+      "topics": [
+        "FPO",
+        "equity grant",
+        "credit guarantee"
+      ]
+    },
+    {
+      "id": "S44",
+      "title": "MIDH scheme information",
+      "org": "Department of Agriculture & Farmers Welfare (MIDH)",
+      "url": "https://midh.gov.in/",
+      "topics": [
+        "nursery",
+        "MIDH"
+      ]
+    },
+    {
+      "id": "S45",
+      "title": "NHB commercial horticulture scheme guidelines",
+      "org": "National Horticulture Board",
+      "url": "https://nhb.gov.in/",
+      "topics": [
+        "NHB",
+        "protected cultivation"
+      ]
+    },
+    {
+      "id": "S46",
+      "title": "NHB cold storage capital investment subsidy",
+      "org": "National Horticulture Board",
+      "url": "https://nhb.gov.in/",
+      "topics": [
+        "cold storage",
+        "post-harvest"
+      ]
+    },
+    {
+      "id": "S47",
+      "title": "Operation Greens",
+      "org": "Ministry of Food Processing Industries",
+      "url": "https://www.mofpi.gov.in/",
+      "topics": [
+        "Operation Greens",
+        "tomato"
+      ]
+    },
+    {
+      "id": "S48",
+      "title": "Market Intervention Scheme (PM-AASHA)",
+      "org": "Department of Agriculture & Farmers Welfare",
+      "url": "https://agriwelfare.gov.in/",
+      "topics": [
+        "MIS",
+        "price support"
+      ]
+    },
+    {
+      "id": "S49",
+      "title": "PM Kisan SAMPADA Yojana",
+      "org": "Ministry of Food Processing Industries",
+      "url": "https://www.mofpi.gov.in/",
+      "topics": [
+        "cold chain",
+        "value addition"
+      ]
+    },
+    {
+      "id": "S50",
+      "title": "RKVY-RAFTAAR",
+      "org": "Department of Agriculture & Farmers Welfare",
+      "url": "https://agriwelfare.gov.in/",
+      "topics": [
+        "RKVY",
+        "agri startup"
+      ]
+    },
+    {
+      "id": "S51",
+      "title": "PKVY and Natural Farming",
+      "org": "PGS-India / Department of Agriculture & Farmers Welfare",
+      "url": "https://pgsindia-ncof.gov.in/",
+      "topics": [
+        "PKVY",
+        "organic"
+      ]
+    },
+    {
+      "id": "S52",
+      "title": "Karnataka Department of Horticulture",
+      "org": "Government of Karnataka",
+      "url": "https://horticulturesec.karnataka.gov.in/",
+      "topics": [
+        "Karnataka",
+        "polyhouse"
+      ]
+    },
+    {
+      "id": "S53",
+      "title": "Tamil Nadu MIDH - district horticulture page",
+      "org": "Government of Tamil Nadu (Krishnagiri district)",
+      "url": "https://krishnagiri.nic.in/scheme/mission-for-integrated-development-of-horticulture/",
+      "topics": [
+        "Tamil Nadu",
+        "polyhouse"
+      ]
+    },
+    {
+      "id": "S54",
+      "title": "MahaDBT farmer portal",
+      "org": "Government of Maharashtra",
+      "url": "https://mahadbt.maharashtra.gov.in/",
+      "topics": [
+        "Maharashtra",
+        "MahaDBT"
+      ]
+    },
+    {
+      "id": "S55",
+      "title": "iKhedut portal",
+      "org": "Government of Gujarat",
+      "url": "https://ikhedut.gujarat.gov.in/",
+      "topics": [
+        "Gujarat",
+        "iKhedut"
+      ]
+    },
+    {
+      "id": "S56",
+      "title": "Raj Kisan Saathi portal",
+      "org": "Government of Rajasthan",
+      "url": "https://rajkisan.rajasthan.gov.in/",
+      "topics": [
+        "Rajasthan",
+        "polyhouse"
+      ]
+    },
+    {
+      "id": "S57",
+      "title": "Haryana Horticulture Department",
+      "org": "Government of Haryana",
+      "url": "https://hortharyana.gov.in/",
+      "topics": [
+        "Haryana",
+        "polyhouse"
+      ]
+    },
+    {
+      "id": "S58",
+      "title": "Telangana State Horticulture Mission",
+      "org": "Government of Telangana",
+      "url": "https://shm.tg.nic.in/",
+      "topics": [
+        "Telangana",
+        "polyhouse"
+      ]
+    }
+  ]
+}

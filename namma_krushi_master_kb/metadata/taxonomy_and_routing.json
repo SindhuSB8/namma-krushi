@@ -1,0 +1,45 @@
+{
+  "project": "Namma Krushi",
+  "language_strategy": "English KB; Kannada queries translated to English for retrieval, then answer translated back",
+  "indexes": {
+    "agriculture": [
+      "agriculture",
+      "disease",
+      "pest",
+      "farmer_advisory"
+    ],
+    "schemes": [
+      "scheme"
+    ]
+  },
+  "cnn_label_map": {
+    "Healthy": "diseases/01_healthy_tomato.md",
+    "Bacterial Spot": "diseases/02_bacterial_spot.md",
+    "Early Blight": "diseases/03_early_blight.md",
+    "Late Blight": "diseases/04_late_blight.md",
+    "Leaf Mold": "diseases/05_leaf_mold.md",
+    "Septoria Leaf Spot": "diseases/06_septoria_leaf_spot.md",
+    "Tomato Yellow Leaf Curl Virus": "diseases/07_tomato_yellow_leaf_curl_virus.md",
+    "Tomato Mosaic Virus": "diseases/08_tomato_mosaic_virus.md",
+    "Powdery Mildew": "diseases/09_powdery_mildew.md",
+    "Target Spot": "diseases/10_target_spot.md",
+    "Spider Mites Two-Spotted Spider Mite": "diseases/11_spider_mites_two_spotted.md"
+  },
+  "greenhouse_xai_route": {
+    "temperature": [
+      "agriculture/05_temperature_humidity_and_ventilation.md"
+    ],
+    "humidity": [
+      "agriculture/05_temperature_humidity_and_ventilation.md"
+    ],
+    "soil_moisture": [
+      "agriculture/07_irrigation_and_soil_moisture.md"
+    ],
+    "light_intensity": [
+      "agriculture/06_light_co2_and_air_movement.md"
+    ],
+    "co2": [
+      "agriculture/06_light_co2_and_air_movement.md"
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "best_model": "Random Forest",
+  "selection_metric": "macro_f1",
+  "training_teams": [
+    "AICU",
+    "Automatoes",
+    "Digilog",
+    "TheAutomators"
+  ],
+  "validation_team": "IUACAAS",
+  "test_team": "Reference",
+  "training_rows": 181795,
+  "validation_rows": 45449,
+  "test_rows": 45460,
+  "features": [
+    "temperature",
+    "humidity",
+    "soil_moisture",
+    "light_intensity",
+    "co2"
+  ],
+  "classes": [
+    "Suitable",
+    "Needs Adjustment",
+    "Unsuitable"
+  ],
+  "test_accuracy": 0.971997360316762,
+  "test_macro_precision": 0.9823201811035651,
+  "test_macro_recall": 0.9270403484640073,
+  "test_macro_f1": 0.9499565022209694,
+  "test_weighted_f1": 0.9706581883146361,
+  "target_origin": "Expert-rule-derived greenhouse suitability target"
+}

@@ -1,0 +1,383 @@
+filepath,class_name,label,predicted_label,predicted_class,confidence,correct
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Leaf_Mold/BM_(953).jpg,Leaf_Mold,3,2,Late_blight,0.9999968,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Late_blight/LyraEDISServlet_jpg.rf.89339c5f432e70ccd6246bbad27d245d.jpg,Late_blight,2,1,Early_blight,0.99985826,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Late_blight/d674cbf6-0cdc-407a-97ea-c3f53f2c51e4___GH_HL Leaf 170.JPG,Late_blight,2,9,healthy,0.99974936,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Late_blight/LB_ (220).jpg,Late_blight,2,1,Early_blight,0.99883753,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Bacterial_spot/DanLeaf2.jpg,Bacterial_spot,0,1,Early_blight,0.9983754,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Target_Spot/e475a5f4-8166-4b18-9f29-8a7ccb541bbb___Com.G_TgS_FL 9878.JPG,Target_Spot,6,4,Septoria_leaf_spot,0.9979656,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Early_blight/9305f21d-4558-49ae-b831-a7a1a4d399c2___RS_Erly.B 7417.JPG,Early_blight,1,2,Late_blight,0.99788624,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/healthy/HL_(17).jpg,healthy,9,10,powdery_mildew,0.9950478,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Early_blight/EB_(994).jpg,Early_blight,1,4,Septoria_leaf_spot,0.9948689,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Bacterial_spot/fb09d588-5a64-4659-8240-17b978ca9e51___GCREC_Bact.Sp 3557.JPG,Bacterial_spot,0,6,Target_Spot,0.99359787,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Early_blight/7763d482-8290-46f4-83aa-edb87ae15297___RS_Erly.B 7766.JPG,Early_blight,1,6,Target_Spot,0.99244213,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Spider_mites Two-spotted_spider_mite/1e06dafa-f977-4354-992e-3271f34a2344___Com.G_SpM_FL 9601_180deg.JPG,Spider_mites Two-spotted_spider_mite,5,6,Target_Spot,0.9916345,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Septoria_leaf_spot/5088-fig-2.jpg,Septoria_leaf_spot,4,1,Early_blight,0.9903501,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Septoria_leaf_spot/2.jpg,Septoria_leaf_spot,4,1,Early_blight,0.990162,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Early_blight/EB_(19).jpg,Early_blight,1,2,Late_blight,0.9900624,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Early_blight/240300f1-a601-4363-84e8-670af8a124a1___RS_Erly.B 7762.JPG,Early_blight,1,6,Target_Spot,0.98921376,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Early_blight/image.jpg,Early_blight,1,2,Late_blight,0.98812103,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Early_blight/EB_(326).JPG,Early_blight,1,6,Target_Spot,0.9841755,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Leaf_Mold/BM_(80).JPG,Leaf_Mold,3,2,Late_blight,0.98370993,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Leaf_Mold/Blm52_hight.jpg,Leaf_Mold,3,0,Bacterial_spot,0.983678,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Late_blight/LB_ (222).jpg,Late_blight,2,1,Early_blight,0.98275256,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Tomato_Yellow_Leaf_Curl_Virus/88048288-a940-4ca0-8cd2-26aaf09ef008___YLCV_GCREC 2319.JPG,Tomato_Yellow_Leaf_Curl_Virus,7,5,Spider_mites Two-spotted_spider_mite,0.98111445,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Bacterial_spot/Bs5_change_270.jpg,Bacterial_spot,0,10,powdery_mildew,0.9791141,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Spider_mites Two-spotted_spider_mite/2bc44ebe-0c50-4e13-b174-c7af34098ed9___Com.G_SpM_FL 9399_180deg.JPG,Spider_mites Two-spotted_spider_mite,5,6,Target_Spot,0.97878623,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Septoria_leaf_spot/b03fbf6b-8b68-4627-a001-0b81de1be427___JR_Sept.L.S 2503.JPG,Septoria_leaf_spot,4,6,Target_Spot,0.97876084,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Septoria_leaf_spot/128110613-56a6d3633df78cf7729070ad_jpg.rf.64aabdaf99a3f4d650fc50967617ab19.jpg,Septoria_leaf_spot,4,1,Early_blight,0.9759493,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Early_blight/1dad664e-ec73-474e-aaf9-a832ca212e3f___RS_Erly.B 7533.JPG,Early_blight,1,2,Late_blight,0.97146565,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Tomato_mosaic_virus/MV_ (11).jpg,Tomato_mosaic_virus,8,9,healthy,0.97106194,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Early_blight/0bd357fe-1e54-4c65-979c-e894e0b8a3aa___RS_Erly.B 8328.JPG,Early_blight,1,2,Late_blight,0.9695795,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Late_blight/Lb4_change_90.jpg,Late_blight,2,10,powdery_mildew,0.96827817,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Late_blight/IMG_5360_jpg.rf.7651a731881c678ec115ed74882f3d75.jpg,Late_blight,2,1,Early_blight,0.9672607,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Bacterial_spot/8-20mistakes-204_jpg.rf.c8dde57556100ea83d17c49ba01816d3.jpg,Bacterial_spot,0,1,Early_blight,0.9672153,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Early_blight/W-00052-06-early-blight.jpg,Early_blight,1,2,Late_blight,0.96674883,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Spider_mites Two-spotted_spider_mite/2bc44ebe-0c50-4e13-b174-c7af34098ed9___Com.G_SpM_FL 9399.JPG,Spider_mites Two-spotted_spider_mite,5,6,Target_Spot,0.9661382,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Bacterial_spot/BS_(12).jpg,Bacterial_spot,0,4,Septoria_leaf_spot,0.9610378,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Bacterial_spot/Bs105_change_270.jpg,Bacterial_spot,0,4,Septoria_leaf_spot,0.95898956,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Leaf_Mold/8a42ec48-5c5e-4468-8d61-2f24b42a9c5a___Crnl_L.Mold 6496.JPG,Leaf_Mold,3,5,Spider_mites Two-spotted_spider_mite,0.9586558,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Septoria_leaf_spot/3ddb7094-9ee7-473d-8a01-b48ce8eda506___Matt.S_CG 6719_flipTB.JPG,Septoria_leaf_spot,4,6,Target_Spot,0.95515263,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Early_blight/early-blight-potatoes.jpg,Early_blight,1,2,Late_blight,0.9524917,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Early_blight/caf4e799-6574-4eb6-81df-edd5d256fd45___RS_Erly.B 7536_180deg.JPG,Early_blight,1,2,Late_blight,0.9506235,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Early_blight/a278a40a-bb25-4210-b646-2d232245851a___RS_Erly.B 7719_180deg.JPG,Early_blight,1,6,Target_Spot,0.9497619,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Septoria_leaf_spot/Gls40_change_90.jpg,Septoria_leaf_spot,4,2,Late_blight,0.9450027,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Tomato_Yellow_Leaf_Curl_Virus/ec12e6e6-f334-4532-8e5a-63a77c0533c0___YLCV_NREC 0077.JPG,Tomato_Yellow_Leaf_Curl_Virus,7,5,Spider_mites Two-spotted_spider_mite,0.94493675,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Early_blight/7763d482-8290-46f4-83aa-edb87ae15297___RS_Erly.B 7766_flipTB.JPG,Early_blight,1,6,Target_Spot,0.94308025,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Early_blight/f432e10d-7fd7-4517-b635-cc7677f53d8e___RS_Erly.B 9590.JPG,Early_blight,1,4,Septoria_leaf_spot,0.94102013,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Bacterial_spot/Bs106_change_180.jpg,Bacterial_spot,0,10,powdery_mildew,0.9407297,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Bacterial_spot/BS_(19).jpg,Bacterial_spot,0,1,Early_blight,0.9401474,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Tomato_mosaic_virus/MV_ (764).jpg,Tomato_mosaic_virus,8,6,Target_Spot,0.9396619,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Target_Spot/2761adc9-bf8f-4362-87a6-7619ecf0dbbe___Com.G_TgS_FL 9681.JPG,Target_Spot,6,5,Spider_mites Two-spotted_spider_mite,0.9393508,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Late_blight/IMG_1526_jpg.rf.5e25005985e2b12a6f52bfa7120f3eee.jpg,Late_blight,2,9,healthy,0.9387465,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Early_blight/0e2abcfb-e62b-4c61-a24a-0800cad904a8___RS_Erly.B 7382.JPG,Early_blight,1,6,Target_Spot,0.9387024,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Spider_mites Two-spotted_spider_mite/2ac9a09c-b68a-4dba-a5c9-ae740fc9b8d4___Com.G_SpM_FL 9651.JPG,Spider_mites Two-spotted_spider_mite,5,6,Target_Spot,0.93799525,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Tomato_mosaic_virus/9511-img_jpg.rf.75a8f18afd4e5b3f7de8cd576ac96577.jpg,Tomato_mosaic_virus,8,9,healthy,0.9374864,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Target_Spot/0fe7d644-dc8b-49f7-9a41-33ec029f6437___Com.G_TgS_FL 8274_newPixel25.JPG,Target_Spot,6,9,healthy,0.93544376,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Late_blight/Lb45_change_90.jpg,Late_blight,2,10,powdery_mildew,0.93380296,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Septoria_leaf_spot/bnX8Q_jpg.rf.5020db19a451649dcca7b43d0f647649.jpg,Septoria_leaf_spot,4,1,Early_blight,0.9319845,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Late_blight/LB_ (396).jpg,Late_blight,2,1,Early_blight,0.93088967,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Tomato_mosaic_virus/MV_ (5).jpg,Tomato_mosaic_virus,8,9,healthy,0.9304074,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Tomato_Yellow_Leaf_Curl_Virus/tomato-yellow-closeup-3_jpg.rf.7da3e3cfee9138d8457689706f8f81ab.jpg,Tomato_Yellow_Leaf_Curl_Virus,7,3,Leaf_Mold,0.9248624,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Bacterial_spot/Bs106.JPG,Bacterial_spot,0,10,powdery_mildew,0.92382175,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Leaf_Mold/Blm58_mirror_vertical.jpg,Leaf_Mold,3,2,Late_blight,0.9224585,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Bacterial_spot/kg32-beefsteak-tomatoes-08_lg_jpg.rf.71926450b2638e9a95a7690452495ff4.jpg,Bacterial_spot,0,1,Early_blight,0.9221416,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Leaf_Mold/Blm64_hight.jpg,Leaf_Mold,3,2,Late_blight,0.9218181,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Bacterial_spot/tomato-plant-diseases-identification-leaf-spot-tomato-disease-tomato-plant-fungus-identification_jpg.rf.122c19e4191d81e2d313af66e6a0f197.jpg,Bacterial_spot,0,1,Early_blight,0.9203971,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Tomato_mosaic_virus/unnamed (2).jpg,Tomato_mosaic_virus,8,9,healthy,0.9195471,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Early_blight/1b4a2ad5-057d-4fac-9188-648edbe49751___RS_Erly.B 7767.JPG,Early_blight,1,6,Target_Spot,0.9181337,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Early_blight/e31c2f10-8b8d-4aec-9bc7-764d2995ebec___RS_Erly.B 7398.JPG,Early_blight,1,2,Late_blight,0.9175216,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Septoria_leaf_spot/Gls53_change_270.jpg,Septoria_leaf_spot,4,3,Leaf_Mold,0.91569364,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Bacterial_spot/9955425d-d21e-4318-a394-099e4e5db3d3___GCREC_Bact.Sp 3646.JPG,Bacterial_spot,0,6,Target_Spot,0.9112619,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Bacterial_spot/Bacterial-Leaf-Spot-2_jpg.rf.e07236a4a8ec2f55ad03205a64325a9e.jpg,Bacterial_spot,0,9,healthy,0.9112255,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Early_blight/EB_(749).JPG,Early_blight,1,6,Target_Spot,0.91114897,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Bacterial_spot/Bs106_mirror.jpg,Bacterial_spot,0,10,powdery_mildew,0.90842056,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Bacterial_spot/BS_(158).jpg,Bacterial_spot,0,2,Late_blight,0.9077498,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Early_blight/EB_(83).JPG,Early_blight,1,2,Late_blight,0.9068749,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Early_blight/3be94535-c405-4f67-99cb-6ffc5f596639___RS_Erly.B 7783.JPG,Early_blight,1,2,Late_blight,0.9068749,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Bacterial_spot/24408a22-6358-438e-99a1-729ea90726ad___GCREC_Bact.Sp 3645.JPG,Bacterial_spot,0,6,Target_Spot,0.9048769,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Early_blight/b58d7a66-097f-4167-abae-92f865407d90___RS_Erly.B 7845_flipTB.JPG,Early_blight,1,6,Target_Spot,0.9043086,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Tomato_mosaic_virus/MV_ (392).jpg,Tomato_mosaic_virus,8,9,healthy,0.9012815,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/healthy/HL_(46).jpg,healthy,9,6,Target_Spot,0.9003981,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Septoria_leaf_spot/3a89c017-4b4b-4f64-a018-05c98a2fa611___Matt.S_CG 1219_180deg.JPG,Septoria_leaf_spot,4,1,Early_blight,0.8954523,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Septoria_leaf_spot/SS_ (26).jpg,Septoria_leaf_spot,4,1,Early_blight,0.8941202,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Leaf_Mold/Blm58_change_180.jpg,Leaf_Mold,3,2,Late_blight,0.892766,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Septoria_leaf_spot/e65190f0-97e9-44a6-bcb8-9fe7d42e9200___Matt.S_CG 7413.JPG,Septoria_leaf_spot,4,6,Target_Spot,0.8927634,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Septoria_leaf_spot/Gls52_hight.jpg,Septoria_leaf_spot,4,3,Leaf_Mold,0.8926567,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Septoria_leaf_spot/SS_ (973).jpg,Septoria_leaf_spot,4,1,Early_blight,0.89049774,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Septoria_leaf_spot/Gls72_change_90.jpg,Septoria_leaf_spot,4,10,powdery_mildew,0.89036185,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Late_blight/07cca2ca-6b0f-4322-8779-beb94bc219b0___RS_Late.B 6037_flipLR.JPG,Late_blight,2,6,Target_Spot,0.89008707,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Bacterial_spot/SpotSpeckBlightMite-1l4v879_jpg.rf.ccf023ca8d181178da1117b344f30012.jpg,Bacterial_spot,0,2,Late_blight,0.88846356,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Septoria_leaf_spot/SS_ (19).jpg,Septoria_leaf_spot,4,1,Early_blight,0.8874731,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Tomato_mosaic_virus/tomato-mosaic-virus-F0BA26_jpg.rf.3153afdd5cbdf7ac3d98c9e1c9a4ec9d.jpg,Tomato_mosaic_virus,8,2,Late_blight,0.8859331,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Septoria_leaf_spot/b70775c5-59bc-4204-af05-a420ef373667___JR_Sept.L.S 2693.JPG,Septoria_leaf_spot,4,6,Target_Spot,0.8848044,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Bacterial_spot/Bs24_mirror.jpg,Bacterial_spot,0,3,Leaf_Mold,0.87837815,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Early_blight/ac57ab70-6d8c-4065-8bab-3a88b5239aea___RS_Erly.B 7408.JPG,Early_blight,1,0,Bacterial_spot,0.8775494,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Bacterial_spot/e7c9c9ed-9e51-4056-93c7-f1ddf74f2ebc___UF.GRC_BS_Lab Leaf 0945.JPG,Bacterial_spot,0,4,Septoria_leaf_spot,0.87748367,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Late_blight/Lb51.JPG,Late_blight,2,10,powdery_mildew,0.8771421,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Septoria_leaf_spot/3ddb7094-9ee7-473d-8a01-b48ce8eda506___Matt.S_CG 6719_180deg.JPG,Septoria_leaf_spot,4,6,Target_Spot,0.8753261,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Septoria_leaf_spot/tomato-septoria-leaf-spot-600_jpg.rf.f2ad4081b45c08d3c342d762c1f6b981.jpg,Septoria_leaf_spot,4,1,Early_blight,0.87031794,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Early_blight/f6ddeb19-8aa3-40f5-8b60-b2f404f13407___RS_Erly.B 7705_flipTB.JPG,Early_blight,1,2,Late_blight,0.86928844,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Tomato_mosaic_virus/MV_ (769).jpg,Tomato_mosaic_virus,8,3,Leaf_Mold,0.86470723,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Target_Spot/54253479-252e-42ed-8ea1-311a1065b0dc___Com.G_TgS_FL 9741.JPG,Target_Spot,6,4,Septoria_leaf_spot,0.860633,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Spider_mites Two-spotted_spider_mite/f3c249e6-04bc-4b2d-b964-d79881c4b7b9___Com.G_SpM_FL 1279.JPG,Spider_mites Two-spotted_spider_mite,5,6,Target_Spot,0.8585115,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Bacterial_spot/0f1d337f-e8c5-445a-83a0-b89915eacb72___UF.GRC_BS_Lab Leaf 0435.JPG,Bacterial_spot,0,4,Septoria_leaf_spot,0.85697067,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Late_blight/a41982b4-98ca-40de-a386-96e865a3dd21___RS_Late.B 6138.JPG,Late_blight,2,1,Early_blight,0.8563344,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Septoria_leaf_spot/Gls52_mirror_vertical.jpg,Septoria_leaf_spot,4,3,Leaf_Mold,0.8534726,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Septoria_leaf_spot/099a68fb-a30b-48b6-99ae-908449e48950___JR_Sept.L.S 2691.JPG,Septoria_leaf_spot,4,5,Spider_mites Two-spotted_spider_mite,0.8514049,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Early_blight/7262-drought.jpg,Early_blight,1,2,Late_blight,0.8496156,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Target_Spot/50d3e666-8d65-4f36-a9e8-59b136c28739___Com.G_TgS_FL 0689.JPG,Target_Spot,6,9,healthy,0.8488844,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Early_blight/EB_(202).JPG,Early_blight,1,6,Target_Spot,0.8415478,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Bacterial_spot/Bs109_change_90.jpg,Bacterial_spot,0,4,Septoria_leaf_spot,0.8385451,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Bacterial_spot/Bs47.JPG,Bacterial_spot,0,4,Septoria_leaf_spot,0.83757013,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Septoria_leaf_spot/6336392950972416-jpeg_jpg.rf.18c814f1c3e55fc8355b3534cfcd270e.jpg,Septoria_leaf_spot,4,3,Leaf_Mold,0.8368778,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Septoria_leaf_spot/Gls28_change_180.jpg,Septoria_leaf_spot,4,10,powdery_mildew,0.8325853,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Septoria_leaf_spot/c06b8139-8834-4755-b335-d1041d082aae___JR_Sept.L.S 2536.JPG,Septoria_leaf_spot,4,6,Target_Spot,0.83234686,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Bacterial_spot/BS_(16).jpg,Bacterial_spot,0,4,Septoria_leaf_spot,0.83156174,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Early_blight/9302786b-4392-4e54-a7a1-c6c39043caaf___RS_Erly.B 8329.JPG,Early_blight,1,2,Late_blight,0.83118564,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Early_blight/EB_(580).JPG,Early_blight,1,2,Late_blight,0.83118564,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Late_blight/Lb32_change_90.jpg,Late_blight,2,0,Bacterial_spot,0.83048165,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Bacterial_spot/Bs104.JPG,Bacterial_spot,0,4,Septoria_leaf_spot,0.8274128,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/healthy/Tomato_leaf_jpg.rf.a876711aebaf78a2e36f82ce50aef443.jpg,healthy,9,3,Leaf_Mold,0.82578176,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Late_blight/ee90e57e-7289-4dcd-af6f-a585d97628b7___RS_Late.B 7040.JPG,Late_blight,2,1,Early_blight,0.8245592,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Tomato_Yellow_Leaf_Curl_Virus/eec6cfb3-3856-4d30-a800-1dc0a1a11f13___UF.GRC_YLCV_Lab 08537.JPG,Tomato_Yellow_Leaf_Curl_Virus,7,0,Bacterial_spot,0.8239779,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Bacterial_spot/Bs47_hight.jpg,Bacterial_spot,0,4,Septoria_leaf_spot,0.8223954,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/healthy/3ea5eb53-bde0-44f1-8aac-d6457e5b0b73___RS_HL 0427_newPixel25.JPG,healthy,9,6,Target_Spot,0.81929576,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Septoria_leaf_spot/SS_ (27).jpg,Septoria_leaf_spot,4,1,Early_blight,0.81732816,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Target_Spot/1ec7a39a-7eec-434e-94ae-c6d32923b1e2___Com.G_TgS_FL 1107_new30degFlipLR.JPG,Target_Spot,6,9,healthy,0.8133177,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Target_Spot/63e1a2ad-a44f-4c4d-b123-417920259975___Com.G_TgS_FL 1035.JPG,Target_Spot,6,5,Spider_mites Two-spotted_spider_mite,0.8128238,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Spider_mites Two-spotted_spider_mite/83066a1d-3c45-452b-af6e-55d6782c152d___Com.G_SpM_FL 9398.JPG,Spider_mites Two-spotted_spider_mite,5,6,Target_Spot,0.8116891,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Septoria_leaf_spot/PHOTO_1333642740144_jpg.rf.2e8f039633b49f49925a88909ff1bbf2.jpg,Septoria_leaf_spot,4,2,Late_blight,0.81089044,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Leaf_Mold/Blm34_change_90.jpg,Leaf_Mold,3,9,healthy,0.81036866,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Target_Spot/1b0bb2af-424b-4268-9f2b-80e4324b769d___Com.G_TgS_FL 8358_newPixel25.JPG,Target_Spot,6,9,healthy,0.8090719,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Bacterial_spot/6aa07949-08b2-4945-a535-3f8b49f86599___GCREC_Bact.Sp 6344.JPG,Bacterial_spot,0,4,Septoria_leaf_spot,0.80707425,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Leaf_Mold/BM_(86).JPG,Leaf_Mold,3,2,Late_blight,0.8055886,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Septoria_leaf_spot/SS_ (576).jpg,Septoria_leaf_spot,4,6,Target_Spot,0.80493194,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Tomato_Yellow_Leaf_Curl_Virus/tomato-yellow-leaf-curl-disease-260nw-1006958086_jpg.rf.0e9fbc1cbfcc3895548fee2f9edd2872.jpg,Tomato_Yellow_Leaf_Curl_Virus,7,8,Tomato_mosaic_virus,0.80183804,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Early_blight/EB_(45).jpg,Early_blight,1,4,Septoria_leaf_spot,0.8018217,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Target_Spot/1840e451-4049-49de-a7ee-9f305e85d3c3___Com.G_TgS_FL 9966.JPG,Target_Spot,6,5,Spider_mites Two-spotted_spider_mite,0.8017714,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Spider_mites Two-spotted_spider_mite/57947620-7dfb-4197-8e9a-c78b56e43ba4___Com.G_SpM_FL 9527.JPG,Spider_mites Two-spotted_spider_mite,5,6,Target_Spot,0.8014075,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Bacterial_spot/Bs14.JPG,Bacterial_spot,0,4,Septoria_leaf_spot,0.798397,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Leaf_Mold/Blm64_mirror.jpg,Leaf_Mold,3,2,Late_blight,0.79631007,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Septoria_leaf_spot/SS_ (577).jpg,Septoria_leaf_spot,4,6,Target_Spot,0.7954238,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Septoria_leaf_spot/Gls66_change_270.jpg,Septoria_leaf_spot,4,1,Early_blight,0.79014224,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Tomato_mosaic_virus/MV_ (761).jpg,Tomato_mosaic_virus,8,9,healthy,0.7866441,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Late_blight/Lb92_mirror.jpg,Late_blight,2,4,Septoria_leaf_spot,0.786039,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Septoria_leaf_spot/2b400c69-36a9-4b78-90a0-3702cd38c896___Matt.S_CG 6876_flipTB.JPG,Septoria_leaf_spot,4,1,Early_blight,0.7854479,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Septoria_leaf_spot/SS_ (977)2.jpg,Septoria_leaf_spot,4,0,Bacterial_spot,0.7842431,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Late_blight/Lb14_mirror_vertical.jpg,Late_blight,2,0,Bacterial_spot,0.7839478,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Leaf_Mold/Blm52_lower.jpg,Leaf_Mold,3,2,Late_blight,0.7834312,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Tomato_Yellow_Leaf_Curl_Virus/tomatoyellowleafcurlcropped_jpg.rf.5fa2fe279c84cb42dd8fd14a1e59af29.jpg,Tomato_Yellow_Leaf_Curl_Virus,7,9,healthy,0.7817017,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Target_Spot/0a51617c-ecb5-42ce-9d34-300307be3465___Com.G_TgS_FL 0976_new30degFlipLR.JPG,Target_Spot,6,9,healthy,0.78103834,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Late_blight/tomato-late-blight-phytophthora-infestans-lesions-and-damage-on-tomato-bh3w9j_jpg.rf.e526f6542d7e2227d7896f8739efcd27.jpg,Late_blight,2,1,Early_blight,0.7806604,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Bacterial_spot/927e4c4b-e6c6-41f1-aabb-255c624ae8f2___GCREC_Bact.Sp 3722.JPG,Bacterial_spot,0,6,Target_Spot,0.77835774,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Septoria_leaf_spot/Gls2_change_90.jpg,Septoria_leaf_spot,4,10,powdery_mildew,0.7776205,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Early_blight/3205c4f9-9dd4-44ce-8e4c-0bd93405d60b___RS_Erly.B 6331.JPG,Early_blight,1,4,Septoria_leaf_spot,0.7766863,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Septoria_leaf_spot/Gls56_hight.jpg,Septoria_leaf_spot,4,2,Late_blight,0.77297837,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Tomato_Yellow_Leaf_Curl_Virus/ff8a2419-99e2-4bb8-ba94-691cb9773930___YLCV_GCREC 5393.JPG,Tomato_Yellow_Leaf_Curl_Virus,7,0,Bacterial_spot,0.7715424,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Tomato_Yellow_Leaf_Curl_Virus/cf968b6f-7659-4e03-afa6-6fb3f57f47b0___UF.GRC_YLCV_Lab 08498.JPG,Tomato_Yellow_Leaf_Curl_Virus,7,0,Bacterial_spot,0.77130926,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Bacterial_spot/Bs31_lower.jpg,Bacterial_spot,0,4,Septoria_leaf_spot,0.7672648,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Tomato_mosaic_virus/MV_ (787).jpg,Tomato_mosaic_virus,8,3,Leaf_Mold,0.7664392,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Bacterial_spot/bacterial-specspot-tomato-leaf.jpg,Bacterial_spot,0,4,Septoria_leaf_spot,0.7634072,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Late_blight/Lb23_change_270.jpg,Late_blight,2,4,Septoria_leaf_spot,0.761717,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Bacterial_spot/BS_(159).jpg,Bacterial_spot,0,2,Late_blight,0.76040435,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Spider_mites Two-spotted_spider_mite/bafa7923-1efe-4e44-94b0-9427b6726bc1___Com.G_SpM_FL 9525.JPG,Spider_mites Two-spotted_spider_mite,5,6,Target_Spot,0.7573498,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Early_blight/f88be630-f853-48f8-b546-a2f7966368a2___RS_Erly.B 7418_flipTB.JPG,Early_blight,1,3,Leaf_Mold,0.7557591,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Septoria_leaf_spot/image.jpg,Septoria_leaf_spot,4,0,Bacterial_spot,0.75335187,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Bacterial_spot/PHOTO_1333642732277_jpg.rf.5e2c8002303d5bf9f334339432ee2bc3.jpg,Bacterial_spot,0,4,Septoria_leaf_spot,0.752305,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Bacterial_spot/unnamed.jpg,Bacterial_spot,0,1,Early_blight,0.7513253,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Late_blight/LB_ (159).png,Late_blight,2,3,Leaf_Mold,0.7507408,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Early_blight/Potato-earlyblight2.jpg,Early_blight,1,2,Late_blight,0.7474021,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Bacterial_spot/BS_(212).jpg,Bacterial_spot,0,4,Septoria_leaf_spot,0.74630743,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Septoria_leaf_spot/Gls28_mirror_vertical.jpg,Septoria_leaf_spot,4,10,powdery_mildew,0.74422824,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Early_blight/96441f54-ccd3-4f34-b405-e395e5070d2c___RS_Erly.B 8336.JPG,Early_blight,1,4,Septoria_leaf_spot,0.7423657,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Septoria_leaf_spot/636227737977191231-septoria-leaf-spot-VT2.jpg,Septoria_leaf_spot,4,1,Early_blight,0.73954624,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Septoria_leaf_spot/347c2ba2-84c7-4e59-9bee-cfbf532f9c27___Matt.S_CG 6699.JPG,Septoria_leaf_spot,4,6,Target_Spot,0.73285145,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Target_Spot/9b4de5ca-bdfe-40a5-ac89-99fd93483ce6___Com.G_TgS_FL 0719.JPG,Target_Spot,6,9,healthy,0.7317541,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Late_blight/36193f11-7789-416d-b0dd-0cae49f74836___GHLB Leaf 23.2 Day 18.JPG,Late_blight,2,3,Leaf_Mold,0.7272317,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Septoria_leaf_spot/Gls27_change_270.jpg,Septoria_leaf_spot,4,2,Late_blight,0.72713107,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Early_blight/EB_(49).jpg,Early_blight,1,4,Septoria_leaf_spot,0.7256824,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Bacterial_spot/f5b9b1ee-1abf-489f-be80-a4c80bfb2820___UF.GRC_BS_Lab Leaf 0445.JPG,Bacterial_spot,0,4,Septoria_leaf_spot,0.72218287,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Late_blight/Lb45_change_180.jpg,Late_blight,2,10,powdery_mildew,0.7221399,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Leaf_Mold/Blm8_hight.jpg,Leaf_Mold,3,2,Late_blight,0.719298,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Late_blight/Lb37_change_90.jpg,Late_blight,2,3,Leaf_Mold,0.71880144,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Early_blight/5bcb328c-9fa4-4abf-a3b6-8a015ada7d94___RS_Erly.B 7476.JPG,Early_blight,1,6,Target_Spot,0.7162439,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Septoria_leaf_spot/5775225744523264-600x272-jpeg_jpg.rf.812a3a530672d5db37daf0ff863ce8b6.jpg,Septoria_leaf_spot,4,1,Early_blight,0.71319366,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Late_blight/LB_ (257).jpg,Late_blight,2,1,Early_blight,0.70944864,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Leaf_Mold/BM_(27).jpg,Leaf_Mold,3,4,Septoria_leaf_spot,0.70908844,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Spider_mites Two-spotted_spider_mite/55a69cc9-7404-469c-a367-bd54f182c2a5___Com.G_SpM_FL 9409.JPG,Spider_mites Two-spotted_spider_mite,5,6,Target_Spot,0.70822847,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Late_blight/LB_ (353).png,Late_blight,2,9,healthy,0.70725244,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Leaf_Mold/Blm5_mirror_vertical.jpg,Leaf_Mold,3,4,Septoria_leaf_spot,0.70722646,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Bacterial_spot/Bs105_change_90.jpg,Bacterial_spot,0,4,Septoria_leaf_spot,0.7043542,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Leaf_Mold/f80ea01a-c910-4f53-b415-9b327dc51402___Crnl_L.Mold 6804.JPG,Leaf_Mold,3,5,Spider_mites Two-spotted_spider_mite,0.7031332,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Bacterial_spot/9a3a8b0b-0587-402d-814d-c0201c4f9b5a___UF.GRC_BS_Lab Leaf 0687.JPG,Bacterial_spot,0,4,Septoria_leaf_spot,0.7030356,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Bacterial_spot/tomato-septoria-leaf-spot-grabowski.jpg,Bacterial_spot,0,4,Septoria_leaf_spot,0.70154095,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Septoria_leaf_spot/3a89c017-4b4b-4f64-a018-05c98a2fa611___Matt.S_CG 1219_flipTB.JPG,Septoria_leaf_spot,4,1,Early_blight,0.6980467,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Spider_mites Two-spotted_spider_mite/e813ff58-97d7-4261-a796-e17ab814bc88___Com.G_SpM_FL 9460.JPG,Spider_mites Two-spotted_spider_mite,5,6,Target_Spot,0.69773126,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Bacterial_spot/Bs104_lower.jpg,Bacterial_spot,0,4,Septoria_leaf_spot,0.69518924,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Early_blight/5390d8c0-5781-47cf-8d0a-482e000a01f3___RS_Erly.B 7400_flipTB.JPG,Early_blight,1,2,Late_blight,0.6910137,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Early_blight/Screen Shot 2016-09-15 at 11.21.24 AM.png,Early_blight,1,4,Septoria_leaf_spot,0.6903228,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Early_blight/a1e875bd-5c06-4031-b0c0-9413d754df0e___RS_Erly.B 8221.JPG,Early_blight,1,2,Late_blight,0.6902059,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Early_blight/EB_(132).JPG,Early_blight,1,2,Late_blight,0.6857393,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Tomato_mosaic_virus/MV_ (789).jpg,Tomato_mosaic_virus,8,9,healthy,0.6852919,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/healthy/185440e0-ca0a-4cd6-aba7-d03fae21552f___RS_HL 0141.JPG,healthy,9,6,Target_Spot,0.6835841,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Early_blight/d452210c-ee07-4a6e-a0e0-15676dafacb1___RS_Erly.B 7419.JPG,Early_blight,1,4,Septoria_leaf_spot,0.68209845,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Septoria_leaf_spot/3dd32fea-62e8-4ae9-b307-5513e845b519___JR_Sept.L.S 2663_180deg.JPG,Septoria_leaf_spot,4,6,Target_Spot,0.67971176,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Spider_mites Two-spotted_spider_mite/4b945a1f-7fed-4ca6-8a8c-5a08f4235fe7___Com.G_SpM_FL 9428_180deg.JPG,Spider_mites Two-spotted_spider_mite,5,6,Target_Spot,0.67813265,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Leaf_Mold/f6c104df-09ed-467c-8e67-30d5bd5d7cd2___Crnl_L.Mold 6829.JPG,Leaf_Mold,3,6,Target_Spot,0.6758163,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Septoria_leaf_spot/SS_ (32).jpg,Septoria_leaf_spot,4,9,healthy,0.67579865,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Early_blight/c6e96373-484c-45da-b043-0a294a59ad2c___RS_Erly.B 7401_flipTB.JPG,Early_blight,1,4,Septoria_leaf_spot,0.67548245,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Spider_mites Two-spotted_spider_mite/8a3d2ca0-3ee0-4506-9d69-e3f9b267d540___Com.G_SpM_FL 1662.JPG,Spider_mites Two-spotted_spider_mite,5,6,Target_Spot,0.6739254,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Septoria_leaf_spot/Gls45_change_90.jpg,Septoria_leaf_spot,4,2,Late_blight,0.6722804,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Bacterial_spot/Bs22_mirror.jpg,Bacterial_spot,0,2,Late_blight,0.6713185,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Leaf_Mold/BM_(887).JPG,Leaf_Mold,3,4,Septoria_leaf_spot,0.6698597,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Septoria_leaf_spot/Gls43_lower.jpg,Septoria_leaf_spot,4,2,Late_blight,0.6680416,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Tomato_mosaic_virus/MV_ (768).jpg,Tomato_mosaic_virus,8,2,Late_blight,0.6660425,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Early_blight/B-29-Leafunsidecladosp-envez_jpg.rf.443f83cfe61536e156c9b9e95af77385.jpg,Early_blight,1,4,Septoria_leaf_spot,0.65954596,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Bacterial_spot/a85dac1e-5549-457d-acda-e776d340f980___GCREC_Bact.Sp 3693.JPG,Bacterial_spot,0,4,Septoria_leaf_spot,0.6587153,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Late_blight/f33028e4-68df-4312-ba25-94d65f03efcf___RS_Late.B 5530.JPG,Late_blight,2,5,Spider_mites Two-spotted_spider_mite,0.6578171,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Late_blight/def832df-c202-4e72-ae0a-0687e62c70ce___RS_Late.B 5071.JPG,Late_blight,2,5,Spider_mites Two-spotted_spider_mite,0.65341204,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Leaf_Mold/23600077_1572609202782510_2145699867_o_jpg.rf.40a3b2eb86e4bced3230c3105d8f4c32.jpg,Leaf_Mold,3,9,healthy,0.6498284,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Septoria_leaf_spot/bdaa50fa-956a-4452-8c8c-c846fbcc7b19___Matt.S_CG 1406.JPG,Septoria_leaf_spot,4,9,healthy,0.6489299,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Leaf_Mold/Blm8_mirror_vertical.jpg,Leaf_Mold,3,2,Late_blight,0.64863074,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Leaf_Mold/c6e1c2ad-78ae-4241-b86c-39d056318737___Crnl_L.Mold 6736_180deg.JPG,Leaf_Mold,3,5,Spider_mites Two-spotted_spider_mite,0.64756536,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Septoria_leaf_spot/tomato-plant-is-infected-with-septoria-leaf-spot-1_jpg.rf.f199cf512d7c66c24da40eaedd684290.jpg,Septoria_leaf_spot,4,1,Early_blight,0.64756083,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Late_blight/df13d0be-1ef9-4371-bf7f-bedb930fc190___RS_Late.B 4846.JPG,Late_blight,2,1,Early_blight,0.64508665,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Early_blight/e330dc16-fdf9-4eee-8b09-88bfb5537180___RS_Erly.B 7601.JPG,Early_blight,1,2,Late_blight,0.64225364,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Leaf_Mold/75b10923-dfb7-4b29-b12f-7e76fc069f51___Crnl_L.Mold 6674.JPG,Leaf_Mold,3,5,Spider_mites Two-spotted_spider_mite,0.64153636,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Late_blight/56fff1a0-e145-4cf8-a2e0-925d9fae1e24___GHLB Leaf 25 Day 12.JPG,Late_blight,2,3,Leaf_Mold,0.63987905,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Bacterial_spot/f5d9fa8d-af44-4362-9134-190479bbe522___GCREC_Bact.Sp 3610.JPG,Bacterial_spot,0,6,Target_Spot,0.6393736,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Septoria_leaf_spot/1da58848-43c5-44ce-974e-bdd0b3c6e7d5___JR_Sept.L.S 8363_flipTB.JPG,Septoria_leaf_spot,4,6,Target_Spot,0.6370927,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Bacterial_spot/Bs103_mirror_vertical.jpg,Bacterial_spot,0,4,Septoria_leaf_spot,0.6358107,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Bacterial_spot/bacterial_spot_tomato1.jpg,Bacterial_spot,0,4,Septoria_leaf_spot,0.6346061,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Bacterial_spot/Bs41_change_270.jpg,Bacterial_spot,0,2,Late_blight,0.6327631,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Septoria_leaf_spot/Gls66.JPG,Septoria_leaf_spot,4,1,Early_blight,0.6294313,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Bacterial_spot/Bs110_change_90.jpg,Bacterial_spot,0,4,Septoria_leaf_spot,0.6294009,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Late_blight/Lb47_change_270.jpg,Late_blight,2,6,Target_Spot,0.62929475,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Septoria_leaf_spot/Gls84_change_180.jpg,Septoria_leaf_spot,4,2,Late_blight,0.6287289,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Spider_mites Two-spotted_spider_mite/1dde88ff-2897-4181-834f-e3629e3cd12c___Com.G_SpM_FL 9560_flipTB.JPG,Spider_mites Two-spotted_spider_mite,5,6,Target_Spot,0.6284785,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Bacterial_spot/3811d01e-de9a-4159-8ab6-eb0e277f0acd___GCREC_Bact.Sp 3546.JPG,Bacterial_spot,0,6,Target_Spot,0.62764734,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Early_blight/5390d8c0-5781-47cf-8d0a-482e000a01f3___RS_Erly.B 7400_180deg.JPG,Early_blight,1,2,Late_blight,0.6256359,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Late_blight/LB_ (240).jpg,Late_blight,2,1,Early_blight,0.625253,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Early_blight/17d051ce-efe1-486e-b5ed-b71b1317a9f0___RS_Erly.B 9614.JPG,Early_blight,1,2,Late_blight,0.6232869,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Bacterial_spot/46b49cf8-b3e6-47f2-8bf1-f9cc6f53f958___GCREC_Bact.Sp 3473.JPG,Bacterial_spot,0,4,Septoria_leaf_spot,0.6172564,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Leaf_Mold/Blm5_change_90.jpg,Leaf_Mold,3,4,Septoria_leaf_spot,0.6161063,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Early_blight/unnamed (1).jpg,Early_blight,1,3,Leaf_Mold,0.61469615,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Bacterial_spot/BS_(113).jpg,Bacterial_spot,0,4,Septoria_leaf_spot,0.60902077,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/healthy/HL_(25).jpg,healthy,9,3,Leaf_Mold,0.60776603,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Tomato_Yellow_Leaf_Curl_Virus/c919537c-9448-4f10-897d-8f3b2dbd9459___YLCV_NREC 0053.JPG,Tomato_Yellow_Leaf_Curl_Virus,7,5,Spider_mites Two-spotted_spider_mite,0.6071559,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Bacterial_spot/996c688b-9f51-4c81-8153-a13ae17f1ce8___UF.GRC_BS_Lab Leaf 0439.JPG,Bacterial_spot,0,4,Septoria_leaf_spot,0.6067906,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Septoria_leaf_spot/Gls52_change_180.jpg,Septoria_leaf_spot,4,3,Leaf_Mold,0.60646063,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/healthy/c04a8a0a-2ab7-4494-9fa3-88aea29338d8___RS_HL 0015.JPG,healthy,9,6,Target_Spot,0.6060348,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Late_blight/3db1dcda-3180-432a-9b8e-7ba8a0d6be55___GHLB_PS Leaf 28.3 Day 13.JPG,Late_blight,2,3,Leaf_Mold,0.6041339,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Septoria_leaf_spot/Tomato-20bacterial-20spot-20closeup-050S-JPG_jpg.rf.2c4282ce062786f70bbd2ba9eb89e3d6.jpg,Septoria_leaf_spot,4,1,Early_blight,0.60381657,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Leaf_Mold/df78e8cb-8fc5-4682-ab5c-f265b4e8d97e___Crnl_L.Mold 8619.JPG,Leaf_Mold,3,2,Late_blight,0.6034999,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Tomato_Yellow_Leaf_Curl_Virus/tylc_jpg.rf.4aeb1389be5d1f40047f4fc79149fdd1.jpg,Tomato_Yellow_Leaf_Curl_Virus,7,8,Tomato_mosaic_virus,0.6030983,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Late_blight/08c1db4d-e947-4499-beff-ed2d8025d725___RS_Late.B 6113_flipLR.JPG,Late_blight,2,9,healthy,0.6016638,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Septoria_leaf_spot/Gls43_mirror_vertical.jpg,Septoria_leaf_spot,4,2,Late_blight,0.6016457,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Spider_mites Two-spotted_spider_mite/d8c4f4fd-92b9-4e04-9b76-66285d2cd703___Com.G_SpM_FL 9611.JPG,Spider_mites Two-spotted_spider_mite,5,6,Target_Spot,0.5986911,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Early_blight/f432e10d-7fd7-4517-b635-cc7677f53d8e___RS_Erly.B 9590_flipTB.JPG,Early_blight,1,4,Septoria_leaf_spot,0.5980409,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Bacterial_spot/BS_(135).jpg,Bacterial_spot,0,4,Septoria_leaf_spot,0.5972004,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Septoria_leaf_spot/Gls2_change_180.jpg,Septoria_leaf_spot,4,10,powdery_mildew,0.5953909,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Late_blight/71c944d61b08f6373a9a38d3c250cb2e_jpg.rf.67f2fbcb48473be05cd0e322b188b729.jpg,Late_blight,2,1,Early_blight,0.591692,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Early_blight/58268d35-a896-406d-9686-5f2f2b9a5b10___RS_Erly.B 7433.JPG,Early_blight,1,0,Bacterial_spot,0.5910652,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Septoria_leaf_spot/SS_ (579).jpg,Septoria_leaf_spot,4,6,Target_Spot,0.58808106,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/healthy/3ee909e6-4de7-4120-bb0e-bd71627f8bf1___RS_HL 9782.JPG,healthy,9,6,Target_Spot,0.58544254,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Target_Spot/5f8a5bf7-8366-4f88-b5e1-bb832608e317___Com.G_TgS_FL 0696_flipTB.JPG,Target_Spot,6,9,healthy,0.58527744,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Bacterial_spot/BS_(157).jpg,Bacterial_spot,0,2,Late_blight,0.58440226,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Early_blight/a3d07302-420d-4b4e-94f2-6694ef9d2088___RS_Erly.B 7652.JPG,Early_blight,1,2,Late_blight,0.5829765,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Septoria_leaf_spot/Gls59_mirror_vertical.jpg,Septoria_leaf_spot,4,0,Bacterial_spot,0.5809266,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Septoria_leaf_spot/Gls62_change_180.jpg,Septoria_leaf_spot,4,2,Late_blight,0.5791254,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Early_blight/hqdefault.jpg,Early_blight,1,2,Late_blight,0.5766839,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Septoria_leaf_spot/7cf8bfef-e8d7-406b-b27c-e5e545096545___JR_Sept.L.S 8427.JPG,Septoria_leaf_spot,4,3,Leaf_Mold,0.5763725,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Bacterial_spot/Pest2371_jpg.rf.9a87743f71cfcf40bd9d42ce5beee67a.jpg,Bacterial_spot,0,2,Late_blight,0.5763689,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Tomato_mosaic_virus/6881c9a5-04b2-41c3-b29f-1ca04bd73967___PSU_CG 2390_180deg.JPG,Tomato_mosaic_virus,8,1,Early_blight,0.57606614,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Septoria_leaf_spot/694af91d-fa2c-4bdd-a1b4-0ebacc3a2cca___Matt.S_CG 1588.JPG,Septoria_leaf_spot,4,6,Target_Spot,0.5743075,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Leaf_Mold/91c943e8-a79e-4a0d-b882-f372655f571b___Crnl_L.Mold 9132_flipTB.JPG,Leaf_Mold,3,6,Target_Spot,0.5736369,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Tomato_mosaic_virus/tobacco-mosaic-virus-tmv-symptoms-RR5K6G.jpg,Tomato_mosaic_virus,8,2,Late_blight,0.570187,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/healthy/HL_(18).jpg,healthy,9,8,Tomato_mosaic_virus,0.5700302,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Septoria_leaf_spot/Gls27_change_90.jpg,Septoria_leaf_spot,4,2,Late_blight,0.5674812,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Late_blight/03a15d38-e1b5-4586-b763-2bad2d268290___RS_Late.B 5207_flipLR.JPG,Late_blight,2,1,Early_blight,0.56576747,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Septoria_leaf_spot/89d94469-6bd0-4b98-8736-bf9a1247271f___Matt.S_CG 7410.JPG,Septoria_leaf_spot,4,6,Target_Spot,0.5654997,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Septoria_leaf_spot/969a199c-8cf8-4a0a-94ef-d7a23569417b___Matt.S_CG 1586.JPG,Septoria_leaf_spot,4,6,Target_Spot,0.5634946,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Bacterial_spot/Bs47_change_180.jpg,Bacterial_spot,0,4,Septoria_leaf_spot,0.5531315,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Early_blight/d452210c-ee07-4a6e-a0e0-15676dafacb1___RS_Erly.B 7419_flipTB.JPG,Early_blight,1,4,Septoria_leaf_spot,0.55280334,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/healthy/HL_(4).jpg,healthy,9,3,Leaf_Mold,0.5517908,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Septoria_leaf_spot/SS_ (500).jpg,Septoria_leaf_spot,4,6,Target_Spot,0.549969,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Bacterial_spot/BS_(5).jpg,Bacterial_spot,0,1,Early_blight,0.549744,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Leaf_Mold/BM_(929).JPG,Leaf_Mold,3,4,Septoria_leaf_spot,0.5491961,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Bacterial_spot/BS_(4).jpg,Bacterial_spot,0,4,Septoria_leaf_spot,0.5480704,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Target_Spot/2e14fe88-6f4a-4765-9255-7b05d75db72a___Com.G_TgS_FL 9742.JPG,Target_Spot,6,4,Septoria_leaf_spot,0.5467957,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Early_blight/9d64c577-43dd-4409-b0ed-f5460bc01dc9___RS_Erly.B 7685.JPG,Early_blight,1,6,Target_Spot,0.5447758,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Spider_mites Two-spotted_spider_mite/629cdfbf-12bb-4f71-a0b5-3a6a7bdf634a___Com.G_SpM_FL 9488.JPG,Spider_mites Two-spotted_spider_mite,5,6,Target_Spot,0.5445305,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Bacterial_spot/ad6dbb38-c44c-40c9-a6d8-8fc1d928e5de___GCREC_Bact.Sp 3775.JPG,Bacterial_spot,0,6,Target_Spot,0.5441622,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/healthy/tomato-leaves-isolated-on-white-260nw-1251320371.jpg,healthy,9,2,Late_blight,0.5434563,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Leaf_Mold/9a067a91-70b3-4801-9a25-bb86f8d0691e___Crnl_L.Mold 8867.JPG,Leaf_Mold,3,2,Late_blight,0.5418632,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Early_blight/2179421c-3ce3-4581-8b65-17da6fffd3db___RS_Erly.B 7730_flipTB.JPG,Early_blight,1,6,Target_Spot,0.5416854,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Late_blight/Lb45_hight.jpg,Late_blight,2,10,powdery_mildew,0.5410373,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Spider_mites Two-spotted_spider_mite/3471da6b-4a47-4dfb-bf6e-8e9bf462ff5b___Com.G_SpM_FL 1638.JPG,Spider_mites Two-spotted_spider_mite,5,6,Target_Spot,0.54000705,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Early_blight/aca65de6-6464-4f8c-803d-b55f92f950f8___RS_Erly.B 6663_flipTB.JPG,Early_blight,1,4,Septoria_leaf_spot,0.5379191,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Bacterial_spot/Bs23_change_270.jpg,Bacterial_spot,0,2,Late_blight,0.5375638,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Septoria_leaf_spot/SS_ (939).jpg,Septoria_leaf_spot,4,1,Early_blight,0.5348551,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Early_blight/243a77c6-b401-43c4-9230-68b4b11f3b83___RS_Erly.B 7754.JPG,Early_blight,1,4,Septoria_leaf_spot,0.53449035,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Septoria_leaf_spot/ba371c18-0d08-4c18-a8d8-e7c716fa9cfa___Matt.S_CG 6518.JPG,Septoria_leaf_spot,4,6,Target_Spot,0.5338131,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Bacterial_spot/Bs24.JPG,Bacterial_spot,0,3,Leaf_Mold,0.5288486,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Bacterial_spot/Bs97_hight.jpg,Bacterial_spot,0,3,Leaf_Mold,0.52774125,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Leaf_Mold/image233_jpg.rf.e25d80e0953eb3fe31e872323b6fbe67.jpg,Leaf_Mold,3,2,Late_blight,0.5271163,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/healthy/HL_(24).jpg,healthy,9,2,Late_blight,0.52546877,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Septoria_leaf_spot/650abe19-6687-4d96-ad08-1c887b8c2a62___JR_Sept.L.S 8497.JPG,Septoria_leaf_spot,4,3,Leaf_Mold,0.525219,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Tomato_mosaic_virus/MV_ (9).jpg,Tomato_mosaic_virus,8,2,Late_blight,0.5250949,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Leaf_Mold/d6a9f74c-1b76-4b09-860c-2a68fb605c4f___Crnl_L.Mold 6894_flipTB.JPG,Leaf_Mold,3,2,Late_blight,0.5229463,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Bacterial_spot/456afc9b-bdae-4506-a04f-aa228de3dd2b___GCREC_Bact.Sp 3548.JPG,Bacterial_spot,0,6,Target_Spot,0.5225423,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Bacterial_spot/BS_(333).jpg,Bacterial_spot,0,4,Septoria_leaf_spot,0.5221074,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Early_blight/IMG_1302.jpeg,Early_blight,1,4,Septoria_leaf_spot,0.52109367,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Leaf_Mold/IMG_1261.jpg,Leaf_Mold,3,2,Late_blight,0.5204728,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Late_blight/Late_Blight_2_jpg.rf.814e1fc40feb15fd74651e9ff1e752a7.jpg,Late_blight,2,3,Leaf_Mold,0.5185667,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Leaf_Mold/leaf_mold_tomato3x1200.jpg,Leaf_Mold,3,1,Early_blight,0.5138869,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Leaf_Mold/Blm21_change_90.jpg,Leaf_Mold,3,4,Septoria_leaf_spot,0.50983083,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Late_blight/Lb45_lower.jpg,Late_blight,2,0,Bacterial_spot,0.5095056,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Septoria_leaf_spot/tomato-leaf-spot-septoria-lycopersici-leaf-spotting-on-tomato-X0YNWG.jpg,Septoria_leaf_spot,4,1,Early_blight,0.50789165,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Spider_mites Two-spotted_spider_mite/9c82d063-388e-4747-bdd5-c369b1b80972___Com.G_SpM_FL 9648.JPG,Spider_mites Two-spotted_spider_mite,5,6,Target_Spot,0.5075491,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Septoria_leaf_spot/leaf-spot3-big_jpg.rf.e690e64534a7bbea83ed4b7eeef0f421.jpg,Septoria_leaf_spot,4,1,Early_blight,0.5060301,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Septoria_leaf_spot/Gls59_mirror.jpg,Septoria_leaf_spot,4,0,Bacterial_spot,0.50377953,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Tomato_mosaic_virus/mosaic-virus-on-squash.jpg,Tomato_mosaic_virus,8,4,Septoria_leaf_spot,0.50094754,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Tomato_Yellow_Leaf_Curl_Virus/8244735f-4ba8-4ab0-8130-e315189986a3___YLCV_GCREC 5460.JPG,Tomato_Yellow_Leaf_Curl_Virus,7,3,Leaf_Mold,0.4993596,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Bacterial_spot/8a496fba-9b07-47a4-a9b0-8f14f6715cec___GCREC_Bact.Sp 5659.JPG,Bacterial_spot,0,4,Septoria_leaf_spot,0.4993483,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/healthy/4f8ac9da-206a-40e3-b647-f691dcda931e___RS_HL 9819.JPG,healthy,9,6,Target_Spot,0.4973919,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Bacterial_spot/Bs68_change_90.jpg,Bacterial_spot,0,3,Leaf_Mold,0.4973078,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Leaf_Mold/BM_(997).jpg,Leaf_Mold,3,10,powdery_mildew,0.49535364,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Leaf_Mold/d998fc3d-1314-4f78-86b7-ca3bf205fe6a___Crnl_L.Mold 7168.JPG,Leaf_Mold,3,9,healthy,0.4932059,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Septoria_leaf_spot/SS_ (607).jpg,Septoria_leaf_spot,4,0,Bacterial_spot,0.48889706,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Septoria_leaf_spot/Gls55_hight.jpg,Septoria_leaf_spot,4,0,Bacterial_spot,0.4881874,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Leaf_Mold/Blm64_change_270.jpg,Leaf_Mold,3,1,Early_blight,0.4861124,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Bacterial_spot/Bs97_change_90.jpg,Bacterial_spot,0,3,Leaf_Mold,0.48344338,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Early_blight/c6e96373-484c-45da-b043-0a294a59ad2c___RS_Erly.B 7401.JPG,Early_blight,1,2,Late_blight,0.48172367,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Early_blight/EB_(170).JPG,Early_blight,1,6,Target_Spot,0.47932124,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Late_blight/50dd04a3-18a8-4a34-bbba-5e6f851742f5___RS_Late.B 6141.JPG,Late_blight,2,6,Target_Spot,0.4779784,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Bacterial_spot/5ad7730a-d2fc-435b-afff-4e2138eb9aa2___GCREC_Bact.Sp 5588.JPG,Bacterial_spot,0,4,Septoria_leaf_spot,0.47783172,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Septoria_leaf_spot/Gls2_lower.jpg,Septoria_leaf_spot,4,10,powdery_mildew,0.47776285,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Early_blight/EB_(275).JPG,Early_blight,1,6,Target_Spot,0.47657916,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Leaf_Mold/Blm64_lower.jpg,Leaf_Mold,3,2,Late_blight,0.47580627,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Septoria_leaf_spot/Gls2_mirror_vertical.jpg,Septoria_leaf_spot,4,10,powdery_mildew,0.47575477,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Early_blight/c6e96373-484c-45da-b043-0a294a59ad2c___RS_Erly.B 7401_180deg.JPG,Early_blight,1,4,Septoria_leaf_spot,0.47558755,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Septoria_leaf_spot/Gls76_change_90.jpg,Septoria_leaf_spot,4,10,powdery_mildew,0.47119915,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Tomato_mosaic_virus/MV_ (16).jpg,Tomato_mosaic_virus,8,2,Late_blight,0.47119108,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Septoria_leaf_spot/SS_ (949).jpg,Septoria_leaf_spot,4,1,Early_blight,0.46706605,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Late_blight/Lb13_change_180.jpg,Late_blight,2,9,healthy,0.4654957,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Late_blight/Lb65_lower.jpg,Late_blight,2,1,Early_blight,0.4649642,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Late_blight/Lb24.JPG,Late_blight,2,0,Bacterial_spot,0.45786777,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/powdery_mildew/pm53_hight.jpg,powdery_mildew,10,4,Septoria_leaf_spot,0.45773074,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Leaf_Mold/Blm53_change_90.jpg,Leaf_Mold,3,0,Bacterial_spot,0.4567966,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Tomato_Yellow_Leaf_Curl_Virus/latest-cb-20100719124603_jpg.rf.add5453b140e4ae688a169133f8f2ccb.jpg,Tomato_Yellow_Leaf_Curl_Virus,7,8,Tomato_mosaic_virus,0.4556165,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Septoria_leaf_spot/SS_ (926).jpg,Septoria_leaf_spot,4,1,Early_blight,0.45407394,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Early_blight/28018723549_3a16c1467b_b_jpg.rf.47b6112906df0980bef9daa6f1fe705c.jpg,Early_blight,1,2,Late_blight,0.44744337,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Early_blight/5390d8c0-5781-47cf-8d0a-482e000a01f3___RS_Erly.B 7400.JPG,Early_blight,1,2,Late_blight,0.4458285,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Bacterial_spot/a9f9ac3b-84be-4356-9a00-12beaea27593___GCREC_Bact.Sp 3638.JPG,Bacterial_spot,0,3,Leaf_Mold,0.4452646,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Early_blight/803ac166-670f-4cad-9f37-e36eea3118d9___RS_Erly.B 9457.JPG,Early_blight,1,2,Late_blight,0.44377613,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Septoria_leaf_spot/ab772665-1f53-48d3-997b-920c0b2b385f___JR_Sept.L.S 2661.JPG,Septoria_leaf_spot,4,9,healthy,0.4436989,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Leaf_Mold/Blm33_lower.jpg,Leaf_Mold,3,4,Septoria_leaf_spot,0.4433527,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Septoria_leaf_spot/SS_ (944).jpg,Septoria_leaf_spot,4,1,Early_blight,0.43709308,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Septoria_leaf_spot/Gls52_lower.jpg,Septoria_leaf_spot,4,3,Leaf_Mold,0.4349879,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Bacterial_spot/BS_(13).jpg,Bacterial_spot,0,4,Septoria_leaf_spot,0.43344274,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Septoria_leaf_spot/1a88e419-7d5c-45c7-a10f-4e1f80280cd2___Matt.S_CG 1584_flipTB.JPG,Septoria_leaf_spot,4,1,Early_blight,0.42944878,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Septoria_leaf_spot/Gls43_hight.jpg,Septoria_leaf_spot,4,2,Late_blight,0.4252011,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Target_Spot/05991e8b-e178-450f-8da9-d7c10bd2cda9___Com.G_TgS_FL 9731.JPG,Target_Spot,6,4,Septoria_leaf_spot,0.42429966,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/powdery_mildew/pm72_lower.jpg,powdery_mildew,10,0,Bacterial_spot,0.42083585,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Bacterial_spot/0db0e663-b580-45b3-bd20-bc8a7f3d8b34___GCREC_Bact.Sp 6189.JPG,Bacterial_spot,0,6,Target_Spot,0.41998512,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Leaf_Mold/70e4ee54-f85e-461b-a35b-e35deb567620___Crnl_L.Mold 6516_flipTB.JPG,Leaf_Mold,3,6,Target_Spot,0.41722813,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Tomato_mosaic_virus/8b75624a-5775-4d44-a2e0-62243632b4a9___PSU_CG 2279_90deg.JPG,Tomato_mosaic_virus,8,3,Leaf_Mold,0.4144457,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Septoria_leaf_spot/Gls59_change_270.jpg,Septoria_leaf_spot,4,0,Bacterial_spot,0.4069167,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Early_blight/EB_(986).jpg,Early_blight,1,4,Septoria_leaf_spot,0.40681967,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Early_blight/9b0106a7-eb90-4bb2-beec-6c9eb2d90d4b___RS_Erly.B 7424.JPG,Early_blight,1,7,Tomato_Yellow_Leaf_Curl_Virus,0.40553954,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Early_blight/EB_(341).JPG,Early_blight,1,3,Leaf_Mold,0.39995146,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Tomato_mosaic_virus/tobacco-mosaic-virus.jpg,Tomato_mosaic_virus,8,7,Tomato_Yellow_Leaf_Curl_Virus,0.392568,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Spider_mites Two-spotted_spider_mite/4f67760e-24e8-4a5d-8162-93e0ce8d93f7___Com.G_SpM_FL 1146.JPG,Spider_mites Two-spotted_spider_mite,5,6,Target_Spot,0.39245316,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Late_blight/11b2caf9-a56c-4d3e-bea4-a5d00affd161___RS_Late.B 6140.JPG,Late_blight,2,1,Early_blight,0.39117804,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Bacterial_spot/74c440d9-d186-41f2-a9c3-9db567a69be9___UF.GRC_BS_Lab Leaf 0325.JPG,Bacterial_spot,0,3,Leaf_Mold,0.38687277,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Leaf_Mold/leaf_mold_tomato6x1200_jpg.rf.6dfb6ca583dcb8e2ae4a55a944ed36a4.jpg,Leaf_Mold,3,2,Late_blight,0.38649586,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Tomato_mosaic_virus/tobacco-mosaic-virus-tomato.jpg,Tomato_mosaic_virus,8,9,healthy,0.38282233,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Tomato_Yellow_Leaf_Curl_Virus/art_15017325188173_a24a66_jpg.rf.51bec96e4b77d0a34c567f5a55089e97.jpg,Tomato_Yellow_Leaf_Curl_Virus,7,2,Late_blight,0.3720134,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Early_blight/EB_(9).jpg,Early_blight,1,4,Septoria_leaf_spot,0.3670986,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Early_blight/EB_(993).jpg,Early_blight,1,0,Bacterial_spot,0.35566568,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Septoria_leaf_spot/Septoria_Leaf_Spot_of_Tomato187_jpg.rf.183d36f754af06dc25a38513d6439ec5.jpg,Septoria_leaf_spot,4,3,Leaf_Mold,0.3407528,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Septoria_leaf_spot/Gls68_change_90.jpg,Septoria_leaf_spot,4,8,Tomato_mosaic_virus,0.2682809,False
+/kaggle/input/datasets/cookiefinder/tomato-disease-multiple-sources/valid/Leaf_Mold/2b8e612f-7448-44f7-899c-95b3c8291824___Crnl_L.Mold 6671.JPG,Leaf_Mold,3,7,Tomato_Yellow_Leaf_Curl_Virus,0.20333962,False

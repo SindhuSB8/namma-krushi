@@ -1,0 +1,10 @@
+{
+  "total_original_images": 32535,
+  "corrupt_images_excluded": 1,
+  "valid_images": 32534,
+  "training_images": 23265,
+  "validation_images": 2586,
+  "test_images": 6683,
+  "number_of_classes": 11,
+  "split_strategy": "90/10 stratified split of original train folder; original valid folder reserved as untouched final test set"
+}

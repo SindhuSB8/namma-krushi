@@ -1,0 +1,236 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+      :root { font-family: system-ui, sans-serif; color-scheme: light; }
+      * { box-sizing: border-box; }
+      html, body { margin: 0; background: transparent; color: #26301f; }
+      body { padding: 2px 0; }
+      #record, #normal-record {
+        min-height: 42px; padding: 0 18px; border: 0; border-radius: 10px;
+        background: #166534; color: #fff; cursor: pointer; font: 650 15px system-ui, sans-serif;
+      }
+      #record:focus-visible, #normal-record:focus-visible, #typed:focus-visible { outline: 3px solid #d7a83b; outline-offset: 2px; }
+      #status { margin: 7px 0 0; font-size: 13px; color: #5b6552; }
+
+      /* Focused voice-conversation view: same cream and farm-green palette
+         as the rest of Namma Krushi, with the orb showing active listening. */
+      body.conversation { min-height: 300px; padding: 14px; background: #f3ecdc; border: 1px solid #ded2b9; border-radius: 16px; }
+      .voice-shell { display: none; }
+      body.conversation .voice-shell { min-height: 270px; display: flex; flex-direction: column; align-items: center; justify-content: space-between; }
+      body.conversation > #normal-record, body.conversation > #status { display: none; }
+      .orb-wrap { text-align: center; }
+      .orb {
+        width: 78px; height: 78px; margin: 6px auto 10px; border-radius: 50%;
+        background: radial-gradient(circle at 34% 28%, #dff3c4 0 12%, #9bb879 38%, #4c7b48 70%, #166534 100%);
+        box-shadow: 0 9px 25px rgba(22, 101, 52, .25);
+        cursor: pointer; transition: transform .2s ease, box-shadow .2s ease;
+      }
+      .orb:focus-visible { outline: 3px solid #d7a83b; outline-offset: 4px; }
+      .orb.speaking { animation: breathe 1.15s ease-in-out infinite; }
+      @keyframes breathe { 50% { transform: scale(1.12); box-shadow: 0 0 0 12px rgba(115, 150, 83, .18), 0 12px 30px rgba(22, 101, 52, .3); } }
+      .voice-title { font: 700 15px Georgia, serif; color: #26301f; }
+      .voice-state { min-height: 20px; margin-top: 4px; color: #5b6552; font-size: 12px; }
+      .composer { width: 100%; display: flex; align-items: center; gap: 10px; padding: 7px 9px 7px 16px; background: #fffaf0; border: 1px solid #ded2b9; border-radius: 28px; box-shadow: 0 6px 18px rgba(38, 48, 31, .08); }
+      #typed { flex: 1; min-width: 0; border: 0; outline: 0; background: transparent; color: #26301f; font: 15px system-ui, sans-serif; }
+      #typed::placeholder { color: #7d8676; }
+      body.conversation #record { min-width: 42px; width: 42px; height: 42px; min-height: 42px; padding: 0; border-radius: 50%; font-size: 18px; }
+      body.conversation #record.listening { background: #b94732; }
+    </style>
+  </head>
+  <body>
+    <div class="voice-shell">
+      <div class="orb-wrap">
+        <div class="orb" id="orb" role="button" tabindex="0" aria-label="Pause or resume the assistant voice"></div>
+        <div class="voice-title">Namma Krushi Assistant</div>
+        <div class="voice-state" id="voice-state">Ready to help</div>
+      </div>
+      <div class="composer">
+        <input id="typed" type="text" autocomplete="off" placeholder="Type your message" aria-label="Type your message" />
+        <button id="record" type="button" aria-label="Start voice conversation">🎙</button>
+      </div>
+    </div>
+    <button id="normal-record" type="button"></button>
+    <p id="status" aria-live="polite"></p>
+    <script>
+      const record = document.getElementById("record");
+      const normalRecord = document.getElementById("normal-record");
+      const status = document.getElementById("status");
+      const voiceState = document.getElementById("voice-state");
+      const orb = document.getElementById("orb");
+      const typed = document.getElementById("typed");
+      let args = {};
+      let recognition = null;
+      let listening = false;
+      const synth = window.speechSynthesis;
+      let responsePlayer = null;
+
+      function conversation() { return Boolean(args.conversation_mode); }
+      function activeButton() { return conversation() ? record : normalRecord; }
+      function send(type, payload = {}) { window.parent.postMessage({isStreamlitMessage: true, type, ...payload}, "*"); }
+      function height() { send("streamlit:setFrameHeight", {height: conversation() ? 316 : 66}); }
+      function setEvent(value) { send("streamlit:setComponentValue", {value, dataType: "json"}); }
+      function state(text) { if (conversation()) voiceState.textContent = text; else status.textContent = text; }
+      function showIdle() {
+        listening = false;
+        normalRecord.textContent = args.start_label || "Start dictation";
+        record.classList.remove("listening"); orb.classList.remove("speaking");
+        record.setAttribute("aria-label", args.start_label || "Start voice conversation");
+        state(conversation() ? "Tap the microphone and speak" : "");
+      }
+      function stop() { if (recognition) recognition.stop(); }
+      function start() {
+        const Recognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+        if (!Recognition) {
+          state(args.unsupported_label || "Browser dictation is not supported here.");
+          setEvent({status: "error", error: "unsupported", nonce: Date.now()});
+          return;
+        }
+        recognition = new Recognition();
+        recognition.lang = args.language || "en-IN";
+        recognition.continuous = false;
+        recognition.interimResults = true;
+        recognition.maxAlternatives = 1;
+        recognition.onstart = () => {
+          listening = true;
+          normalRecord.textContent = args.stop_label || "Stop and use speech";
+          record.classList.add("listening"); orb.classList.add("speaking");
+          state(args.listening_label || "Listening...");
+        };
+        recognition.onresult = event => {
+          let transcript = "";
+          for (let i = event.resultIndex; i < event.results.length; i += 1) transcript += event.results[i][0].transcript;
+          state(transcript);
+          if (event.results[event.results.length - 1].isFinal && transcript.trim()) {
+            setEvent({status: "result", transcript: transcript.trim(), nonce: Date.now()});
+          }
+        };
+        recognition.onerror = event => {
+          if (event.error !== "aborted") {
+            state(args.error_label || "Dictation could not start.");
+            setEvent({status: "error", error: event.error, nonce: Date.now()});
+          }
+        };
+        recognition.onend = showIdle;
+        recognition.start();
+      }
+      function toggle() { listening ? stop() : start(); }
+      function preferredVoice(language) {
+        const voices = synth ? synth.getVoices() : [];
+        const wanted = (language || "").toLowerCase();
+        const exact = voices.find(voice => voice.lang.toLowerCase() === wanted);
+        return exact || voices.find(voice => voice.lang.toLowerCase().startsWith(wanted.slice(0, 2)));
+      }
+      function waitForPreferredVoice(language) {
+        const current = preferredVoice(language);
+        if (current || !(language || "").toLowerCase().startsWith("kn")) return Promise.resolve(current);
+        return new Promise(resolve => {
+          const onVoicesChanged = () => {
+            const loaded = preferredVoice(language);
+            if (loaded) finish(loaded);
+          };
+          const timeout = window.setTimeout(() => finish(preferredVoice(language)), 1500);
+          function finish(voice) {
+            window.clearTimeout(timeout);
+            synth.removeEventListener("voiceschanged", onVoicesChanged);
+            resolve(voice);
+          }
+          synth.addEventListener("voiceschanged", onVoicesChanged);
+        });
+      }
+      function playNativeKannadaAudio() {
+        if (!args.assistant_audio_base64) return Promise.resolve(false);
+        if (responsePlayer) responsePlayer.pause();
+        responsePlayer = new Audio("data:audio/mp3;base64," + args.assistant_audio_base64);
+        responsePlayer.onplay = () => { orb.classList.add("speaking"); state("Namma Krushi is speaking"); };
+        responsePlayer.onended = () => { responsePlayer = null; showIdle(); };
+        responsePlayer.onerror = () => { responsePlayer = null; state(args.kannada_voice_unavailable_label || "Kannada audio could not play."); };
+        return responsePlayer.play().then(() => true).catch(() => {
+          // Autoplay can be restricted after a Streamlit rerun. Keep the MP3
+          // ready so the farmer can tap the orb to start the native voice.
+          state("Tap the green circle to hear the Kannada reply");
+          return true;
+        });
+      }
+      async function speakResponse(text) {
+        if (!text) return;
+        if (args.assistant_audio_base64) {
+          await playNativeKannadaAudio();
+          return;
+        }
+        if (!synth) return;
+        const language = args.language || "en-IN";
+        synth.cancel();
+        // getVoices() is often empty on the first render. Wait for the
+        // browser's actual Kannada engine rather than speaking with its
+        // American-English default while the Kannada voice is still loading.
+        const voice = await waitForPreferredVoice(language);
+        if (language.toLowerCase().startsWith("kn") && !voice) {
+          state(args.kannada_voice_unavailable_label || "Kannada voice is not available in this browser.");
+          return;
+        }
+        const utterance = new SpeechSynthesisUtterance(text);
+        utterance.lang = language;
+        if (voice) utterance.voice = voice;
+        if (language.toLowerCase().startsWith("kn")) utterance.rate = 0.92;
+        utterance.onstart = () => { orb.classList.add("speaking"); state("Namma Krushi is speaking"); };
+        utterance.onend = () => showIdle();
+        utterance.onerror = () => showIdle();
+        synth.speak(utterance);
+      }
+      function toggleAssistantSpeech() {
+        if (!conversation()) return;
+        if (responsePlayer) {
+          if (responsePlayer.paused) {
+            responsePlayer.play();
+            orb.classList.add("speaking");
+            state("Namma Krushi is speaking");
+          } else {
+            responsePlayer.pause();
+            orb.classList.remove("speaking");
+            state("Paused — tap the orb to resume");
+          }
+          return;
+        }
+        if (!synth || !synth.speaking) return;
+        if (synth.paused) {
+          synth.resume();
+          orb.classList.add("speaking");
+          state("Namma Krushi is speaking");
+        } else {
+          synth.pause();
+          orb.classList.remove("speaking");
+          state("Paused — tap the orb to resume");
+        }
+      }
+      record.addEventListener("click", toggle);
+      normalRecord.addEventListener("click", toggle);
+      orb.addEventListener("click", toggleAssistantSpeech);
+      orb.addEventListener("keydown", event => {
+        if (event.key === "Enter" || event.key === " ") {
+          event.preventDefault();
+          toggleAssistantSpeech();
+        }
+      });
+      typed.addEventListener("keydown", event => {
+        if (event.key === "Enter" && typed.value.trim()) {
+          event.preventDefault();
+          setEvent({status: "typed", transcript: typed.value.trim(), nonce: Date.now()});
+          typed.value = "";
+        }
+      });
+      window.addEventListener("message", event => {
+        if (!event.data || event.data.type !== "streamlit:render") return;
+        args = event.data.args || {};
+        document.body.classList.toggle("conversation", conversation());
+        if (!listening) showIdle();
+        height();
+        if (args.speak_response && args.assistant_text) window.setTimeout(() => speakResponse(args.assistant_text), 150);
+      });
+      send("streamlit:componentReady", {apiVersion: 1});
+      showIdle(); height();
+    </script>
+  </body>
+</html>

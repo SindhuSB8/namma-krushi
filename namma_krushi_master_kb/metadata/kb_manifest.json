@@ -1,0 +1,206 @@
+{
+  "created_on": "2026-09-04",
+  "file_count": 50,
+  "files": [
+    {
+      "path": "00_rag_answering_policy.md",
+      "bytes": 1742
+    },
+    {
+      "path": "README.md",
+      "bytes": 3543
+    },
+    {
+      "path": "agriculture/01_tomato_crop_basics.md",
+      "bytes": 2770
+    },
+    {
+      "path": "agriculture/02_nursery_and_transplanting.md",
+      "bytes": 2417
+    },
+    {
+      "path": "agriculture/03_soil_growing_media_ph_and_root_zone.md",
+      "bytes": 2506
+    },
+    {
+      "path": "agriculture/04_greenhouse_and_protected_cultivation.md",
+      "bytes": 2386
+    },
+    {
+      "path": "agriculture/05_temperature_humidity_and_ventilation.md",
+      "bytes": 2486
+    },
+    {
+      "path": "agriculture/06_light_co2_and_air_movement.md",
+      "bytes": 2354
+    },
+    {
+      "path": "agriculture/07_irrigation_and_soil_moisture.md",
+      "bytes": 2157
+    },
+    {
+      "path": "agriculture/08_fertigation_and_nutrition.md",
+      "bytes": 2341
+    },
+    {
+      "path": "agriculture/09_training_pruning_and_trellising.md",
+      "bytes": 1985
+    },
+    {
+      "path": "agriculture/10_pollination_flowering_and_fruit_set.md",
+      "bytes": 2045
+    },
+    {
+      "path": "agriculture/11_harvest_and_postharvest.md",
+      "bytes": 1780
+    },
+    {
+      "path": "agriculture/12_physiological_disorders.md",
+      "bytes": 2206
+    },
+    {
+      "path": "diseases/01_healthy_tomato.md",
+      "bytes": 1316
+    },
+    {
+      "path": "diseases/02_bacterial_spot.md",
+      "bytes": 1407
+    },
+    {
+      "path": "diseases/03_early_blight.md",
+      "bytes": 1386
+    },
+    {
+      "path": "diseases/04_late_blight.md",
+      "bytes": 1437
+    },
+    {
+      "path": "diseases/05_leaf_mold.md",
+      "bytes": 1333
+    },
+    {
+      "path": "diseases/06_septoria_leaf_spot.md",
+      "bytes": 1237
+    },
+    {
+      "path": "diseases/07_tomato_yellow_leaf_curl_virus.md",
+      "bytes": 1446
+    },
+    {
+      "path": "diseases/08_tomato_mosaic_virus.md",
+      "bytes": 1360
+    },
+    {
+      "path": "diseases/09_powdery_mildew.md",
+      "bytes": 1338
+    },
+    {
+      "path": "diseases/10_target_spot.md",
+      "bytes": 1403
+    },
+    {
+      "path": "diseases/11_spider_mites_two_spotted.md",
+      "bytes": 1405
+    },
+    {
+      "path": "diseases/12_damping_off.md",
+      "bytes": 1153
+    },
+    {
+      "path": "diseases/13_fusarium_wilt.md",
+      "bytes": 1361
+    },
+    {
+      "path": "diseases/14_bacterial_wilt.md",
+      "bytes": 1364
+    },
+    {
+      "path": "diseases/15_tomato_spotted_wilt.md",
+      "bytes": 1052
+    },
+    {
+      "path": "evaluation/rag_test_questions.json",
+      "bytes": 11986
+    },
+    {
+      "path": "farmer_advisory/01_yellow_leaves_diagnostic.md",
+      "bytes": 1569
+    },
+    {
+      "path": "farmer_advisory/02_wilting_diagnostic.md",
+      "bytes": 1330
+    },
+    {
+      "path": "farmer_advisory/03_flower_drop_and_poor_fruit_set.md",
+      "bytes": 1201
+    },
+    {
+      "path": "farmer_advisory/04_greenhouse_analysis_to_advice.md",
+      "bytes": 1669
+    },
+    {
+      "path": "farmer_advisory/05_disease_prediction_to_advice.md",
+      "bytes": 1380
+    },
+    {
+      "path": "metadata/rag_build_guide.md",
+      "bytes": 2654
+    },
+    {
+      "path": "metadata/sources.csv",
+      "bytes": 6767
+    },
+    {
+      "path": "metadata/sources.json",
+      "bytes": 10764
+    },
+    {
+      "path": "metadata/taxonomy_and_routing.json",
+      "bytes": 1443
+    },
+    {
+      "path": "pests/01_whiteflies.md",
+      "bytes": 1355
+    },
+    {
+      "path": "pests/02_thrips.md",
+      "bytes": 1110
+    },
+    {
+      "path": "pests/03_leaf_miner.md",
+      "bytes": 980
+    },
+    {
+      "path": "pests/04_fruit_borer.md",
+      "bytes": 1087
+    },
+    {
+      "path": "pests/05_integrated_pest_management.md",
+      "bytes": 1618
+    },
+    {
+      "path": "schemes/01_midh_protected_cultivation.md",
+      "bytes": 1773
+    },
+    {
+      "path": "schemes/02_pm_kisan.md",
+      "bytes": 1246
+    },
+    {
+      "path": "schemes/03_kisan_credit_card.md",
+      "bytes": 1337
+    },
+    {
+      "path": "schemes/04_pmfby_crop_insurance.md",
+      "bytes": 1446
+    },
+    {
+      "path": "schemes/05_agriculture_infrastructure_fund.md",
+      "bytes": 1441
+    },
+    {
+      "path": "schemes/06_karnataka_scheme_discovery.md",
+      "bytes": 1629
+    }
+  ]
+}

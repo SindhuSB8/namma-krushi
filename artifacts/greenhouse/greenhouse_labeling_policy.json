@@ -1,0 +1,85 @@
+{
+  "target": "greenhouse_condition",
+  "target_origin": "Expert-rule-derived tomato greenhouse suitability target",
+  "classes": [
+    "Suitable",
+    "Needs Adjustment",
+    "Unsuitable"
+  ],
+  "features": [
+    "temperature",
+    "humidity",
+    "soil_moisture",
+    "light_intensity",
+    "co2"
+  ],
+  "temperature_celsius": {
+    "suitable": [
+      18,
+      27
+    ],
+    "marginal": [
+      15,
+      32
+    ]
+  },
+  "relative_humidity_percent": {
+    "suitable": [
+      65,
+      90
+    ],
+    "marginal": [
+      50,
+      94
+    ]
+  },
+  "substrate_water_content_percent": {
+    "suitable": [
+      68,
+      88
+    ],
+    "marginal": [
+      60,
+      95
+    ],
+    "note": "WC_slab is rockwool/substrate water content, presented to the farmer as root-zone/soil moisture."
+  },
+  "co2_ppm": {
+    "suitable": [
+      400,
+      1200
+    ],
+    "marginal": [
+      300,
+      1500
+    ]
+  },
+  "light_PAR": {
+    "zero": "No penalty because it may represent nighttime",
+    "suitable": [
+      50,
+      900
+    ],
+    "marginal_low": [
+      1,
+      49
+    ],
+    "marginal_high": [
+      901,
+      1100
+    ],
+    "severe_above": 1100
+  },
+  "overall_condition_rule": {
+    "Suitable": "All five parameters within suitable ranges",
+    "Needs Adjustment": "One or two marginal parameters and no severe parameter",
+    "Unsuitable": "At least one severe parameter or three or more simultaneous marginal parameters"
+  },
+  "sensor_cleaning": {
+    "temperature": "(0, 45] C",
+    "humidity": "[0, 100] %",
+    "soil_moisture": "(0, 100] %",
+    "light": "[0, 2000]",
+    "co2": "[250, 2500] ppm"
+  }
+}
